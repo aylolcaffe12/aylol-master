@@ -1,3 +1,5 @@
+
+
 const SHOP_DATA = [
   {
     title: "shampoos",
@@ -6,7 +8,7 @@ const SHOP_DATA = [
         id: 1,
         name: "שמפו אורגני",
         imageUrl: "https://unsplash.com/photos/hXCo2kJpF2E/download?force=true",
-        price: 25,
+        price: 500,
       },
       {
         id: 2,
