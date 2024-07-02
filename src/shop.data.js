@@ -6,32 +6,32 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "שמפו אורגני",
+        name: "Skin Care",
         imageUrl: "https://unsplash.com/photos/hXCo2kJpF2E/download?force=true",
         price: 500,
       },
       {
         id: 2,
-        name: "שמפו צמחי",
+        name: "Body Care",
         imageUrl: "https://unsplash.com/photos/kd6X5Ogz1Zw/download?force=true",
         price: 20,
       },
       {
         id: 3,
-        name: "שמפו נגד קשקשים",
+        name: "Hair Care",
         imageUrl:
           "https://unsplash.com/photos/natural-eco-friendly-solid-shampoo-bar-wooden-brush-conditionersoap-konjaku-sponge-on-white-wood-with-green-monstera-leaves-zero-waste-products-plastic-free-NoyjI6LKVjg/download?force=true",
         price: 30,
       },
       {
         id: 4,
-        name: "שמפו מלחח",
+        name: "Make Up",
         imageUrl: "https://unsplash.com/photos/xFFSlA9BbG8/download?force=true",
         price: 28,
       },
       {
         id: 5,
-        name: "שמפו מעניק נפח",
+        name: "Perfume & Musk",
         imageUrl:
           "https://unsplash.com/photos/a-bottle-of-shampoo-sitting-on-top-of-a-box-hXCo2kJpF2E/download?force=true",
         price: 22,
