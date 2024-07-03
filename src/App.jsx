@@ -11,6 +11,7 @@ const Home = lazy(() => import('./routes/home/home.component'));
 const Login = lazy(() => import('./routes/login/login.component'));
 const Shop = lazy(() => import('./routes/shop/shop.component'));
 const CartComponent = lazy(() => import('./routes/cart/cart.component'));
+const Product = lazy(() => import('./routes/cart/cart.component'));
 
 const App = () => {
   const location = useLocation();
@@ -40,6 +41,7 @@ const App = () => {
           <Route path='shop/*' element={<Shop />} />
           <Route path='login' element={<Login />} />
           <Route path='cart' element={<CartComponent />} />
+          <Route path='product/:id' element={<Product />} /> 
         </Route>
       </Routes>
     </Suspense>
