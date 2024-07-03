@@ -2,7 +2,7 @@
 
 const SHOP_DATA = [
   {
-    title: "shampoos",
+    title: "Skin Care",
     items: [
       {
         id: 1,
@@ -39,7 +39,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "makeups",
+    title: "Body Care",
     items: [
       {
         id: 6,
@@ -74,7 +74,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "skincare",
+    title: "Hair Care",
     items: [
       {
         id: 11,
@@ -109,7 +109,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "perfumes",
+    title: "Make Up",
     items: [
       {
         id: 16,
@@ -144,7 +144,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "body-lotions",
+    title: "Perfume & Musk",
     items: [
       {
         id: 21,
