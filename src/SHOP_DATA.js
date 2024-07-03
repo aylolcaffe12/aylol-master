@@ -19,6 +19,8 @@ import im17 from "./assets/images/bodycare/15.jpg";
 import im18 from "./assets/images/bodycare/16.jpg";
 import im19 from "./assets/images/bodycare/17.jpg";
 import im20 from "./assets/images/bodycare/18.jpg";
+import im200 from "./assets/images/bodycare/19.jpg";
+
 
 import im21 from "./assets/images/haircare/1.jpg";
 import im22 from "./assets/images/haircare/2.jpg";
@@ -27,6 +29,8 @@ import im24 from "./assets/images/haircare/4.jpg";
 import im25 from "./assets/images/haircare/5.jpg";
 import im26 from "./assets/images/haircare/6.jpg";
 import im27 from "./assets/images/haircare/7.jpg";
+import im277 from "./assets/images/haircare/8.jpg";
+
 
 import im28 from "./assets/images/skincare/1.jpg";
 import im29 from "./assets/images/skincare/2.jpg";
@@ -310,7 +314,13 @@ export const SHOP_DATA = [
         des : "",
         price: 60,
       },
-
+      {
+        id: 7,
+        name: "",
+        imageUrl: im200,
+        des : "",
+        price: 60,
+      },
     ],
   },
   {
@@ -362,6 +372,13 @@ export const SHOP_DATA = [
         id: 11,
         name: " ",
         imageUrl: im27,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im277,
         des : "",
         price: 25,
       },
