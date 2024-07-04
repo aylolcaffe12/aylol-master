@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 
-import { selectCategoriesMap, selectCategoriesIsLoading } from '../../store/category.selector';
-import ProductCard from '../../components/product-card/product-card.component';
-import SpinnerComponent from '../../components/spinner/spinner.component';
+import {
+  selectCategoriesMap,
+  selectCategoriesIsLoading,
+} from "../../store/category.selector";
+import ProductCard from "../../components/product-card/product-card.component";
+import SpinnerComponent from "../../components/spinner/spinner.component";
 
 const Category = () => {
   const { category } = useParams();
@@ -18,29 +21,33 @@ const Category = () => {
 
   return (
     <>
-      {
-        isLoading ? (
-          <SpinnerComponent />
-        ) : (
-          <div className='container page-container'>
-            <h2 className='cat-page-name'>
-              {category}
-              <span className='product-count'>
-                {products && ` ${products.length} products`}
-              </span>
-            </h2>
-            <div className='shop-container'>
-              {products && products.map((product) => {
-                  return (
-                    <ProductCard key={product.id} product={product} />
-                  )
-              })}
-            </div>
+      {isLoading ? (
+        <SpinnerComponent />
+      ) : (
+        <div className="container page-container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              width: "100%",
+            }}
+          >
+            <h2 className="cat-page-name">{category}</h2>
+            <span className="product-count" style={{}}>
+              {products && ` ${products.length} products`}
+            </span>
           </div>
-        )
-      }
+          <div className="shop-container">
+            {products &&
+              products.map((product) => {
+                return <ProductCard key={product.id} product={product} />;
+              })}
+          </div>
+        </div>
+      )}
     </>
   );
-}
+};
 
 export default Category;

@@ -116,12 +116,25 @@ const CartComponent = () => {
                   <div className="quantity">
                     <button
                       type="button"
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
                       onClick={() => handleRemoveOrDecrease(item)}
                     >
                       -
                     </button>
                     <span className="value">{item.quantity}</span>
-                    <button type="button" onClick={() => handleAddToCart(item)}>
+                    <button
+                      type="button"
+                      onClick={() => handleAddToCart(item)}
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
                       +
                     </button>
                   </div>
