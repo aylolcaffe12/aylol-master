@@ -50,6 +50,62 @@ import im42 from "./assets/images/skincare/15.jpg";
 import im43 from "./assets/images/skincare/16.jpg";
 import im44 from "./assets/images/skincare/17.jpg";
 
+import im45 from "./assets/images/makeup/1.jpg";
+import im46 from "./assets/images/makeup/2.jpg";
+import im47 from "./assets/images/makeup/3.jpg";
+import im48 from "./assets/images/makeup/4.jpg";
+import im49 from "./assets/images/makeup/5.jpg";
+import im50 from "./assets/images/makeup/6.jpg";
+import im51 from "./assets/images/makeup/7.jpg";
+import im52 from "./assets/images/makeup/8.jpg";
+import im53 from "./assets/images/makeup/9.jpg";
+import im54 from "./assets/images/makeup/10.jpg";
+import im55 from "./assets/images/makeup/11.jpg";
+import im56 from "./assets/images/makeup/12.jpg";
+import im57 from "./assets/images/makeup/13.jpg";
+import im58 from "./assets/images/makeup/14.jpg";
+import im59 from "./assets/images/makeup/15.jpg";
+import im60 from "./assets/images/makeup/16.jpg";
+import im61 from "./assets/images/makeup/17.jpg";
+import im62 from "./assets/images/makeup/18.jpg";
+import im63 from "./assets/images/makeup/19.jpg";
+import im64 from "./assets/images/makeup/20.jpg";
+import im65 from "./assets/images/makeup/21.jpg";
+import im66 from "./assets/images/makeup/22.jpg";
+import im67 from "./assets/images/makeup/23.jpg";
+import im68 from "./assets/images/makeup/24.jpg";
+import im69 from "./assets/images/makeup/25.jpg";
+import im70 from "./assets/images/makeup/26.jpg";
+import im71 from "./assets/images/makeup/27.jpg";
+import im72 from "./assets/images/makeup/28.jpg";
+import im73 from "./assets/images/makeup/29.jpg";
+import im74 from "./assets/images/makeup/30.jpg";
+import im75 from "./assets/images/makeup/31.jpg";
+import im76 from "./assets/images/makeup/32.jpg";
+import im77 from "./assets/images/makeup/33.jpg";
+import im78 from "./assets/images/makeup/34.jpg";
+import im79 from "./assets/images/makeup/35.jpg";
+import im80 from "./assets/images/makeup/36.jpg";
+import im81 from "./assets/images/makeup/37.jpg";
+import im82 from "./assets/images/makeup/38.jpg";
+import im83 from "./assets/images/makeup/39.jpg";
+import im84 from "./assets/images/makeup/40.jpg";
+import im85 from "./assets/images/makeup/41.jpg";
+import im86 from "./assets/images/makeup/42.jpg";
+import im87 from "./assets/images/makeup/43.jpg";
+import im88 from "./assets/images/makeup/44.jpg";
+import im89 from "./assets/images/makeup/45.jpg";
+import im90 from "./assets/images/makeup/46.jpg";
+import im91 from "./assets/images/makeup/47.jpg";
+import im92 from "./assets/images/makeup/48.jpg";
+import im93 from "./assets/images/makeup/49.jpg";
+import im94 from "./assets/images/makeup/50.jpg";
+import im95 from "./assets/images/makeup/51.jpg";
+import im96 from "./assets/images/makeup/52.jpg";
+import im97 from "./assets/images/makeup/53.jpg";
+import im98 from "./assets/images/makeup/54.jpg";
+import im99 from "./assets/images/makeup/55.jpg";
+import im100 from "./assets/images/makeup/56.jpg";
 
 
 
@@ -385,38 +441,403 @@ export const SHOP_DATA = [
     ],
   },
   {
+    /////////
     title: "perfumes",
     items: [
       {
-        id: 16,
-        name: "או דה פרפיום",
-        imageUrl: "https://unsplash.com/photos/xxcKsiwCUQ4/download?force=true",
-        price: 80,
+        id: 11,
+        name: " ",
+        imageUrl: im45,
+        des : "",
+        price: 25,
       },
       {
-        id: 17,
-        name: "קולון",
-        imageUrl: "https://unsplash.com/photos/M8-omPx8tYs/download?force=true",
-        price: 70,
+        id: 11,
+        name: " ",
+        imageUrl: im46,
+        des : "",
+        price: 25,
       },
       {
-        id: 18,
-        name: "בודי מיסט",
-        imageUrl: "https://unsplash.com/photos/nXjB6dm4uWk/download?force=true",
-        price: 40,
+        id: 11,
+        name: " ",
+        imageUrl: im47,
+        des : "",
+        price: 25,
       },
       {
-        id: 19,
-        name: "בושם מוצק",
-        imageUrl: "https://unsplash.com/photos/W1pweRmEiw4/download?force=true",
-        price: 55,
+        id: 11,
+        name: " ",
+        imageUrl: im48,
+        des : "",
+        price: 25,
       },
       {
-        id: 20,
-        name: "שמן בושם",
-        imageUrl: "https://unsplash.com/photos/10vqDJktZF4/download?force=true",
-        price: 65,
+        id: 11,
+        name: " ",
+        imageUrl: im49,
+        des : "",
+        price: 25,
       },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im50,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im51,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im52,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im53,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im54,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im55,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im56,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im57,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im58,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im59,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im60,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im61,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im62,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im63,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im64,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im65,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im66,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im67,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im68,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im69,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im70,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im71,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im72,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im73,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im74,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im75,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im76,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im77,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im78,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im79,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im80,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im81,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im82,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im83,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im84,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im85,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im86,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im87,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im88,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im89,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im90,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im91,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im92,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im93,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im94,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im95,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im96,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im97,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im98,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im99,
+        des : "",
+        price: 25,
+      },
+      {
+        id: 11,
+        name: " ",
+        imageUrl: im100,
+        des : "",
+        price: 25,
+      },
+
+  
     ],
   },
   {
