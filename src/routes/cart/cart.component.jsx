@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import jsPDF from "jspdf";
-import html2canvas from "html2canvas"; // Ensure this import is added
+import "jspdf-autotable";
 import FormInput from "../../components/form-input/form-input.component";
 import {
   addItemToCart,
@@ -35,6 +35,85 @@ const CartComponent = () => {
     const { name, value } = e.target;
     setValues((prev) => ({ ...prev, [name]: value }));
   }, []);
+
+  const generatePDF = async () => {
+    const { name, location } = values;
+    const doc = new jsPDF();
+
+    // Add text
+    doc.text(`Name: ${name}`, 10, 10);
+    doc.text(`Location: ${location}`, 10, 20);
+    doc.text("Items:", 10, 30);
+
+    // Add table headers
+    const tableBody = cartItems.map((item) => [
+      item.name,
+      item.quantity,
+      `$${item.price.toFixed(2)}`,
+      { content: "", styles: { cellWidth: 30, cellPadding: 0 } },
+    ]);
+
+    doc.autoTable({
+      head: [["Product", "Quantity", "Unit Price", "Image"]],
+      body: tableBody,
+      startY: 40,
+      willDrawCell: (data) => {
+        if (data.section === "body") {
+          data.cell.styles.minCellHeight = 200;
+        }
+      },
+      didDrawCell: (data) => {
+        if (data.column.index === 3 && data.cell.section === "body") {
+          const itemIndex = data.row.index;
+          const img = new Image();
+          img.src = cartItems[itemIndex].imageUrl; // Reference the correct item
+          img.onload = () => {
+            doc.addImage(
+              img,
+              "JPEG",
+              data.cell.x + 2,
+              data.cell.y + 2,
+              196,
+              196
+            );
+          };
+        }
+      },
+    });
+
+    // Add total price
+    doc.text(
+      `Total: $${bagTotalPrice.toFixed(2)}`,
+      10,
+      doc.autoTable.previous.finalY + 10
+    );
+
+    // Save the PDF
+    const pdfOutput = doc.output("blob");
+
+    // Create a download link
+    const pdfURL = URL.createObjectURL(pdfOutput);
+    const link = document.createElement("a");
+    link.href = pdfURL;
+    link.download = "invoice.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  // const sendWhatsAppMessage = async () => {
+  //   const pdfURL = await generatePDF();
+  //   const { name, location } = values;
+
+  //   let message = `Name: ${name}\nLocation: ${location}\n\nPlease download your invoice: ${pdfURL}`;
+
+  //   const encodedMessage = encodeURIComponent(message);
+  //   const phoneNumber = "+972522911779".replace(/\D/g, ""); // Ensure phone number is in the correct format
+  //   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  //   // Open WhatsApp link
+  //   window.open(whatsappLink, "_blank");
+  // };
 
   const sendWhatsAppMessage = () => {
     const { name, location, phone } = values;
