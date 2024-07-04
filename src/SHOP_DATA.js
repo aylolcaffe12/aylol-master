@@ -35,6 +35,8 @@ import skincare34 from "./assets/pictures/34.jpg";
 import skincare35 from "./assets/pictures/35.jpg";
 import skincare36 from "./assets/pictures/36.jpg";
 import skincare37 from "./assets/pictures/37.jpg";
+import skincare38 from "./assets/pictures/38.jpg";
+
 
 import makeup300 from "./assets/pictures/300.jpg";
 import makeup301 from "./assets/pictures/301.jpg";
@@ -92,6 +94,10 @@ import makeup352 from "./assets/pictures/352.jpg";
 import makeup353 from "./assets/pictures/353.jpg";
 import makeup354 from "./assets/pictures/354.jpg";
 import makeup355 from "./assets/pictures/355.jpg";
+import makeup356 from "./assets/pictures/356.jpg";
+import makeup357 from "./assets/pictures/357.jpg";
+import makeup358 from "./assets/pictures/358.jpg";
+
 
 import perfume600 from "./assets/pictures/600.jpg";
 import perfume601 from "./assets/pictures/601.jpg";
@@ -385,6 +391,13 @@ export const SHOP_DATA = [
         id: 37,
         name: "Skin Care",
         imageUrl: skincare37,
+        des: "",
+        price: 500,
+      },
+      {
+        id: 38,
+        name: "Skin Care",
+        imageUrl: skincare38,
         des: "",
         price: 500,
       },
@@ -782,6 +795,27 @@ export const SHOP_DATA = [
         id: 355,
         name: "Makeup",
         imageUrl: makeup355,
+        des: "",
+        price: 500,
+      },
+      {
+        id: 356,
+        name: "Makeup",
+        imageUrl: makeup356,
+        des: "",
+        price: 500,
+      },
+      {
+        id: 357,
+        name: "Makeup",
+        imageUrl: makeup357,
+        des: "",
+        price: 500,
+      },
+      {
+        id: 358,
+        name: "Makeup",
+        imageUrl: makeup358,
         des: "",
         price: 500,
       },

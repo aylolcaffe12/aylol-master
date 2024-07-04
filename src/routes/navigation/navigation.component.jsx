@@ -4,7 +4,7 @@ import ig_icon from "../../assets/ig-instagram-icon.svg";
 import CartIcon from "./../../components/cart/cart-icon.component.jsx";
 import Minicart from "../../components/cart/minicart.component.jsx";
 import { logOutUser } from "../../utils/firebase/firebase.utils";
-import Logo from "../../assets/crown.svg";
+import Logo from "../../assets/crown.png";
 import "./navigation.styles.scss";
 import FooterComponent from "../../components/footer/footer.component.jsx";
 
