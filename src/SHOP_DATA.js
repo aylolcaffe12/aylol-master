@@ -131,6 +131,20 @@ import haircare1005 from "./assets/pictures/1005.jpg";
 import haircare1006 from "./assets/pictures/1006.jpg";
 import haircare1007 from "./assets/pictures/1007.jpg";
 
+
+import lenses1300 from "./assets/pictures/1300.jpg";
+import lenses1301 from "./assets/pictures/1301.jpg";
+import lenses1302 from "./assets/pictures/1302.jpg";
+import lenses1303 from "./assets/pictures/1303.jpg";
+import lenses1304 from "./assets/pictures/1304.jpg";
+import lenses1305 from "./assets/pictures/1305.jpg";
+import lenses1306 from "./assets/pictures/1306.jpg";
+import lenses1307 from "./assets/pictures/1307.jpg";
+import lenses1308 from "./assets/pictures/1308.jpg";
+import lenses1309 from "./assets/pictures/1309.jpg";
+
+
+
 export const SHOP_DATA = [
   {
     // skin care
@@ -1010,5 +1024,70 @@ export const SHOP_DATA = [
         price: 35,
       },
     ],
+      // skin care
+      title: "lenses",
+      items: [
+        {
+          id: 1300,
+          name: "Skin Care",
+          imageUrl: lenses1300,
+          price: 500,
+        },
+        {
+          id: 1301,
+          name: "Skin Care",
+          imageUrl: lenses1301,
+          price: 500,
+        },
+        {
+          id: 1302,
+          name: "Skin Care",
+          imageUrl: lenses1302,
+          price: 500,
+        },
+        {
+          id: 1303,
+          name: "Skin Care",
+          imageUrl: lenses1303,
+          price: 500,
+        },
+        {
+          id: 1304,
+          name: "Skin Care",
+          imageUrl: lenses1304,
+          price: 500,
+        },
+        {
+          id: 1305,
+          name: "Skin Care",
+          imageUrl: lenses1305,
+          price: 500,
+        },
+        {
+          id: 1306,
+          name: "Skin Care",
+          imageUrl: lenses1306,
+          price: 500,
+        },
+        {
+          id: 1307,
+          name: "Skin Care",
+          imageUrl: lenses1307,
+          price: 500,
+        },
+        {
+          id: 1308,
+          name: "Skin Care",
+          imageUrl: lenses1308,
+          price: 500,
+        },
+        {
+          id: 1309,
+          name: "Skin Care",
+          imageUrl: lenses1309,
+          price: 500,
+        },
+      ]  
   },
+  
 ];

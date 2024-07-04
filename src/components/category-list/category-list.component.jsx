@@ -5,6 +5,7 @@ import bodycare from "./mainPic/bodycare.jpg";
 import haircare from "./mainPic/haircare.jpg";
 import makeup from "./mainPic/makeup.jpg";
 import perfume from "./mainPic/perfume.jpg";
+import lenses from "./mainPic/lenses.jpg";
 
 
 const categories = [
@@ -37,6 +38,12 @@ const categories = [
     title: "Perfume & Musk",
     imageUrl: perfume ,
         route: "shop/perfumes",
+  },
+  {
+    id: 6,
+    title: "Lenses",
+    imageUrl: lenses ,
+        route: "shop/lenses",
   },
 ];
 
