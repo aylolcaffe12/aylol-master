@@ -840,7 +840,7 @@ export const SHOP_DATA = [
         name: "Makeup",
         imageUrl: makeup359,
         des: "",
-        price: 400,
+        price: 410,
       },
     ],
   },
