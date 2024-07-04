@@ -40,12 +40,15 @@ const CartComponent = () => {
     const { name, location, phone } = values;
 
     let message = `Name: ${name}\nLocation: ${location}\n\nItems:\n`;
-    message += "Product          Quantity          Unit Price\n";
+    message += "Product            Quantity    Unit Price\n";
+    message += "------------------------------------------\n";
+
     cartItems.forEach((item) => {
-      message += `${item.name}          ${
-        item.quantity
-      }          $${item.price.toFixed(2)}\n`;
+      message += `${item.name.padEnd(18)}${item.quantity
+        .toString()
+        .padEnd(12)}$${item.price.toFixed(2).padStart(10)}\n`;
     });
+
     message += `\nTotal: $${bagTotalPrice.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
