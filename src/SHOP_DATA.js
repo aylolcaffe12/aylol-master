@@ -97,6 +97,8 @@ import makeup355 from "./assets/pictures/355.jpg";
 import makeup356 from "./assets/pictures/356.jpg";
 import makeup357 from "./assets/pictures/357.jpg";
 import makeup358 from "./assets/pictures/358.jpg";
+import makeup358 from "./assets/pictures/359.jpg";
+
 
 
 import perfume600 from "./assets/pictures/600.jpg";
@@ -830,6 +832,13 @@ export const SHOP_DATA = [
         id: 358,
         name: "Makeup",
         imageUrl: makeup358,
+        des: "",
+        price: 500,
+      },
+      {
+        id: 359,
+        name: "Makeup",
+        imageUrl: makeup359,
         des: "",
         price: 500,
       },
