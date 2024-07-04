@@ -19,7 +19,7 @@ const ProductDetails = () => {
     [categoriesMap, productId, category]
   );
 
-  const { name, imageUrl, price } = product;
+  const { name, imageUrl, price, id } = product;
 
   const [text, setText] = useState("");
 
@@ -44,6 +44,7 @@ const ProductDetails = () => {
         </div>
         <div className="product-footer">
           <h3 className="name">{name}</h3>
+          {productId}
           <p className="price">$ {price?.toFixed(2)}</p>
         </div>
       </div>

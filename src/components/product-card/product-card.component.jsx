@@ -18,7 +18,12 @@ const ProductCard = memo(({ product }) => {
   return (
     <div className="product-card-container">
       <div className="img-container">
-        <img src={imageUrl} alt={name} loading="lazy"  onClick={() => navigate(`${product.id}`)}/>
+        <img
+          src={imageUrl}
+          alt={name}
+          loading="lazy"
+          onClick={() => navigate(`${product.id}`)}
+        />
         <Button
           type="button"
           style=""
