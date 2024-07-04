@@ -5,7 +5,7 @@ const categories = [
     id: 1,
     title: "Skin Care",
     imageUrl: "https://unsplash.com/photos/hXCo2kJpF2E/download?force=true",
-    route: "shop/shampoos",
+    route: "shop/skincare",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const categories = [
     title: "Hair Care",
     imageUrl:
       "https://unsplash.com/photos/7TlWZkpxCb0/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzE5ODQwMzgxfA&force=true",
-    route: "shop/skincare",
+    route: "shop/skincare2",
   },
   {
     id: 4,
