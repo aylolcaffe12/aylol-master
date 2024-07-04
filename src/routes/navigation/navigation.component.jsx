@@ -18,7 +18,8 @@ const Navigation = () => {
           <Link className="logo-container" to={"/"}>
             <img src={Logo} alt="" className="" />
           </Link>
-
+          <CartIcon />
+          <Minicart />
           {/* <div className="nav-links-container">
             <Link className="nav-link" to={"/shop"}>
               Shop All
@@ -35,7 +36,6 @@ const Navigation = () => {
             )}
             <CartIcon />
           </div> */}
-          <Minicart />
         </div>
       </div>
       <Outlet />
