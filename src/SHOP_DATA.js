@@ -157,13 +157,15 @@ export const SHOP_DATA = [
         name: "Skin Care",
         imageUrl: skincare1,
         price: 500,
+        disprice: 0,
       },
       {
         id: 2,
         name: "Skin Care",
         imageUrl: skincare2,
         des: "",
-        price: 500,
+        price: 500,     
+        disprice: 0,
       },
       {
         id: 3,
@@ -171,6 +173,8 @@ export const SHOP_DATA = [
         imageUrl: skincare3,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 4,
@@ -178,6 +182,8 @@ export const SHOP_DATA = [
         imageUrl: skincare4,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 5,
@@ -185,6 +191,8 @@ export const SHOP_DATA = [
         imageUrl: skincare5,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 6,
@@ -192,6 +200,8 @@ export const SHOP_DATA = [
         imageUrl: skincare6,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 7,
@@ -199,6 +209,8 @@ export const SHOP_DATA = [
         imageUrl: skincare7,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 8,
@@ -206,6 +218,8 @@ export const SHOP_DATA = [
         imageUrl: skincare8,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 9,
@@ -213,6 +227,8 @@ export const SHOP_DATA = [
         imageUrl: skincare9,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 10,
@@ -220,6 +236,8 @@ export const SHOP_DATA = [
         imageUrl: skincare10,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 11,
@@ -227,6 +245,8 @@ export const SHOP_DATA = [
         imageUrl: skincare11,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 12,
@@ -234,6 +254,8 @@ export const SHOP_DATA = [
         imageUrl: skincare12,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 13,
@@ -241,6 +263,8 @@ export const SHOP_DATA = [
         imageUrl: skincare13,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 14,
@@ -248,6 +272,8 @@ export const SHOP_DATA = [
         imageUrl: skincare14,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 15,
@@ -255,6 +281,8 @@ export const SHOP_DATA = [
         imageUrl: skincare15,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 16,
@@ -262,6 +290,8 @@ export const SHOP_DATA = [
         imageUrl: skincare16,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 17,
@@ -269,6 +299,8 @@ export const SHOP_DATA = [
         imageUrl: skincare17,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 18,
@@ -276,6 +308,9 @@ export const SHOP_DATA = [
         imageUrl: skincare18,
         des: "",
         price: 500,
+        disprice: 0,
+
+
       },
       {
         id: 19,
@@ -283,6 +318,8 @@ export const SHOP_DATA = [
         imageUrl: skincare19,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 20,
@@ -290,6 +327,8 @@ export const SHOP_DATA = [
         imageUrl: skincare20,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 21,
@@ -297,6 +336,8 @@ export const SHOP_DATA = [
         imageUrl: skincare21,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 22,
@@ -304,6 +345,8 @@ export const SHOP_DATA = [
         imageUrl: skincare22,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 23,
@@ -311,6 +354,8 @@ export const SHOP_DATA = [
         imageUrl: skincare23,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 24,
@@ -318,6 +363,8 @@ export const SHOP_DATA = [
         imageUrl: skincare24,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 25,
@@ -325,6 +372,8 @@ export const SHOP_DATA = [
         imageUrl: skincare25,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 26,
@@ -332,6 +381,8 @@ export const SHOP_DATA = [
         imageUrl: skincare26,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 27,
@@ -339,6 +390,8 @@ export const SHOP_DATA = [
         imageUrl: skincare27,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 28,
@@ -346,6 +399,8 @@ export const SHOP_DATA = [
         imageUrl: skincare28,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 29,
@@ -353,6 +408,8 @@ export const SHOP_DATA = [
         imageUrl: skincare29,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 30,
@@ -360,6 +417,8 @@ export const SHOP_DATA = [
         imageUrl: skincare30,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 31,
@@ -367,6 +426,8 @@ export const SHOP_DATA = [
         imageUrl: skincare31,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 32,
@@ -374,6 +435,8 @@ export const SHOP_DATA = [
         imageUrl: skincare32,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 33,
@@ -381,6 +444,8 @@ export const SHOP_DATA = [
         imageUrl: skincare33,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 34,
@@ -388,6 +453,8 @@ export const SHOP_DATA = [
         imageUrl: skincare34,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 35,
@@ -395,6 +462,8 @@ export const SHOP_DATA = [
         imageUrl: skincare35,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 36,
@@ -402,6 +471,8 @@ export const SHOP_DATA = [
         imageUrl: skincare36,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 37,
@@ -409,6 +480,8 @@ export const SHOP_DATA = [
         imageUrl: skincare37,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 38,
@@ -416,6 +489,8 @@ export const SHOP_DATA = [
         imageUrl: skincare38,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
     ],
   },
@@ -428,6 +503,8 @@ export const SHOP_DATA = [
         imageUrl: makeup300,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 301,
@@ -435,6 +512,8 @@ export const SHOP_DATA = [
         imageUrl: makeup301,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 302,
@@ -442,6 +521,8 @@ export const SHOP_DATA = [
         imageUrl: makeup302,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 303,
@@ -449,6 +530,8 @@ export const SHOP_DATA = [
         imageUrl: makeup303,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 304,
@@ -456,6 +539,8 @@ export const SHOP_DATA = [
         imageUrl: makeup304,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 305,
@@ -463,6 +548,8 @@ export const SHOP_DATA = [
         imageUrl: makeup305,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 306,
@@ -470,6 +557,8 @@ export const SHOP_DATA = [
         imageUrl: makeup306,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 307,
@@ -477,6 +566,8 @@ export const SHOP_DATA = [
         imageUrl: makeup307,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 308,
@@ -484,6 +575,8 @@ export const SHOP_DATA = [
         imageUrl: makeup308,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 309,
@@ -491,6 +584,8 @@ export const SHOP_DATA = [
         imageUrl: makeup309,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 310,
@@ -498,6 +593,8 @@ export const SHOP_DATA = [
         imageUrl: makeup310,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 311,
@@ -505,6 +602,8 @@ export const SHOP_DATA = [
         imageUrl: makeup311,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 312,
@@ -512,6 +611,8 @@ export const SHOP_DATA = [
         imageUrl: makeup312,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 313,
@@ -519,6 +620,8 @@ export const SHOP_DATA = [
         imageUrl: makeup313,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 314,
@@ -526,6 +629,8 @@ export const SHOP_DATA = [
         imageUrl: makeup314,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 315,
@@ -533,6 +638,8 @@ export const SHOP_DATA = [
         imageUrl: makeup315,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 316,
@@ -540,6 +647,8 @@ export const SHOP_DATA = [
         imageUrl: makeup316,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 317,
@@ -547,6 +656,8 @@ export const SHOP_DATA = [
         imageUrl: makeup317,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 318,
@@ -554,6 +665,8 @@ export const SHOP_DATA = [
         imageUrl: makeup318,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 319,
@@ -561,6 +674,8 @@ export const SHOP_DATA = [
         imageUrl: makeup319,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 320,
@@ -568,6 +683,8 @@ export const SHOP_DATA = [
         imageUrl: makeup320,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 321,
@@ -575,6 +692,8 @@ export const SHOP_DATA = [
         imageUrl: makeup321,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 322,
@@ -582,6 +701,8 @@ export const SHOP_DATA = [
         imageUrl: makeup322,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 323,
@@ -589,6 +710,8 @@ export const SHOP_DATA = [
         imageUrl: makeup323,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 324,
@@ -596,6 +719,8 @@ export const SHOP_DATA = [
         imageUrl: makeup324,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 325,
@@ -603,6 +728,8 @@ export const SHOP_DATA = [
         imageUrl: makeup325,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 326,
@@ -610,6 +737,8 @@ export const SHOP_DATA = [
         imageUrl: makeup326,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 327,
@@ -617,6 +746,8 @@ export const SHOP_DATA = [
         imageUrl: makeup327,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 328,
@@ -624,6 +755,8 @@ export const SHOP_DATA = [
         imageUrl: makeup328,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 329,
@@ -631,6 +764,8 @@ export const SHOP_DATA = [
         imageUrl: makeup329,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 330,
@@ -638,6 +773,8 @@ export const SHOP_DATA = [
         imageUrl: makeup330,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 331,
@@ -645,6 +782,8 @@ export const SHOP_DATA = [
         imageUrl: makeup331,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 332,
@@ -652,6 +791,8 @@ export const SHOP_DATA = [
         imageUrl: makeup332,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 333,
@@ -659,6 +800,8 @@ export const SHOP_DATA = [
         imageUrl: makeup333,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 334,
@@ -666,6 +809,8 @@ export const SHOP_DATA = [
         imageUrl: makeup334,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 335,
@@ -673,6 +818,8 @@ export const SHOP_DATA = [
         imageUrl: makeup335,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 336,
@@ -680,6 +827,8 @@ export const SHOP_DATA = [
         imageUrl: makeup336,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 337,
@@ -687,6 +836,8 @@ export const SHOP_DATA = [
         imageUrl: makeup337,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 338,
@@ -694,6 +845,8 @@ export const SHOP_DATA = [
         imageUrl: makeup338,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 339,
@@ -701,6 +854,8 @@ export const SHOP_DATA = [
         imageUrl: makeup339,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 340,
@@ -708,6 +863,8 @@ export const SHOP_DATA = [
         imageUrl: makeup340,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 341,
@@ -715,6 +872,8 @@ export const SHOP_DATA = [
         imageUrl: makeup341,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 342,
@@ -722,6 +881,8 @@ export const SHOP_DATA = [
         imageUrl: makeup342,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 343,
@@ -729,6 +890,8 @@ export const SHOP_DATA = [
         imageUrl: makeup343,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 344,
@@ -736,6 +899,8 @@ export const SHOP_DATA = [
         imageUrl: makeup344,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 345,
@@ -743,6 +908,8 @@ export const SHOP_DATA = [
         imageUrl: makeup345,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 346,
@@ -750,6 +917,8 @@ export const SHOP_DATA = [
         imageUrl: makeup346,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 347,
@@ -757,6 +926,8 @@ export const SHOP_DATA = [
         imageUrl: makeup347,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 348,
@@ -764,6 +935,8 @@ export const SHOP_DATA = [
         imageUrl: makeup348,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 349,
@@ -771,6 +944,8 @@ export const SHOP_DATA = [
         imageUrl: makeup349,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 350,
@@ -778,6 +953,8 @@ export const SHOP_DATA = [
         imageUrl: makeup350,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 351,
@@ -785,6 +962,8 @@ export const SHOP_DATA = [
         imageUrl: makeup351,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 352,
@@ -792,6 +971,8 @@ export const SHOP_DATA = [
         imageUrl: makeup352,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 353,
@@ -799,6 +980,8 @@ export const SHOP_DATA = [
         imageUrl: makeup353,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 354,
@@ -806,6 +989,8 @@ export const SHOP_DATA = [
         imageUrl: makeup354,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 355,
@@ -813,6 +998,8 @@ export const SHOP_DATA = [
         imageUrl: makeup355,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 356,
@@ -820,6 +1007,8 @@ export const SHOP_DATA = [
         imageUrl: makeup356,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 357,
@@ -827,6 +1016,8 @@ export const SHOP_DATA = [
         imageUrl: makeup357,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 358,
@@ -834,6 +1025,8 @@ export const SHOP_DATA = [
         imageUrl: makeup358,
         des: "",
         price: 500,
+        disprice: 0,
+
       },
       {
         id: 359,
@@ -841,6 +1034,8 @@ export const SHOP_DATA = [
         imageUrl: makeup359,
         des: "",
         price: 410,
+        disprice: 0,
+
       },
     ],
   },
@@ -852,48 +1047,64 @@ export const SHOP_DATA = [
         name: "Hair Care",
         imageUrl: haircare1000,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1001,
         name: "Hair Care",
         imageUrl: haircare1001,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1002,
         name: "Hair Care",
         imageUrl: haircare1002,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1003,
         name: "Hair Care",
         imageUrl: haircare1003,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1004,
         name: "Hair Care",
         imageUrl: haircare1004,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1005,
         name: "Hair Care",
         imageUrl: haircare1005,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1006,
         name: "Hair Care",
         imageUrl: haircare1006,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 1007,
         name: "Hair Care",
         imageUrl: haircare1007,
         price: 35,
+        disprice: 0,
+
       },
     ],
   },
@@ -906,12 +1117,16 @@ export const SHOP_DATA = [
         name: "",
         imageUrl: perfume600,
         price: 15,
+        disprice: 0,
+
       },
       {
         id: 601,
         name: "",
         imageUrl: perfume601,
         price: 35,
+        disprice: 0,
+
       },
     ],
   },
@@ -923,114 +1138,152 @@ export const SHOP_DATA = [
         name: "Body Care",
         imageUrl: bodycare800,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 801,
         name: "Body Care",
         imageUrl: bodycare801,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 802,
         name: "Body Care",
         imageUrl: bodycare802,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 803,
         name: "Body Care",
         imageUrl: bodycare803,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 804,
         name: "Body Care",
         imageUrl: bodycare804,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 805,
         name: "Body Care",
         imageUrl: bodycare805,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 806,
         name: "Body Care",
         imageUrl: bodycare806,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 807,
         name: "Body Care",
         imageUrl: bodycare807,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 808,
         name: "Body Care",
         imageUrl: bodycare808,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 809,
         name: "Body Care",
         imageUrl: bodycare809,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 810,
         name: "Body Care",
         imageUrl: bodycare810,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 811,
         name: "Body Care",
         imageUrl: bodycare811,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 812,
         name: "Body Care",
         imageUrl: bodycare812,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 813,
         name: "Body Care",
         imageUrl: bodycare813,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 814,
         name: "Body Care",
         imageUrl: bodycare814,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 815,
         name: "Body Care",
         imageUrl: bodycare815,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 816,
         name: "Body Care",
         imageUrl: bodycare816,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 817,
         name: "Body Care",
         imageUrl: bodycare817,
         price: 35,
+        disprice: 0,
+
       },
       {
         id: 818,
         name: "Body Care",
         imageUrl: bodycare818,
         price: 35,
+        disprice: 0,
+
       },
     ],
   },
@@ -1043,60 +1296,80 @@ export const SHOP_DATA = [
           name: "Skin Care",
           imageUrl: lenses1300,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1301,
           name: "Skin Care",
           imageUrl: lenses1301,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1302,
           name: "Skin Care",
           imageUrl: lenses1302,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1303,
           name: "Skin Care",
           imageUrl: lenses1303,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1304,
           name: "Skin Care",
           imageUrl: lenses1304,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1305,
           name: "Skin Care",
           imageUrl: lenses1305,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1306,
           name: "Skin Care",
           imageUrl: lenses1306,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1307,
           name: "Skin Care",
           imageUrl: lenses1307,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1308,
           name: "Skin Care",
           imageUrl: lenses1308,
           price: 500,
+          disprice: 0,
+
         },
         {
           id: 1309,
           name: "Skin Care",
           imageUrl: lenses1309,
           price: 500,
+          disprice: 0,
+
         },
       ] ,
   },
