@@ -6,8 +6,10 @@ import { useDispatch, useSelector } from "react-redux";
 import Markdown from "react-markdown";
 import Button from "../../components/button/button.component";
 import { addItemToCart, toggleMinicart } from "../../store/minicart.reducer";
+import { useIntl } from "react-intl";
 
 const ProductDetails = () => {
+  const intl = useIntl();
   const params = useParams();
   const { productId, category } = params;
   const categoriesMap = useSelector(selectCategoriesMap);
@@ -27,7 +29,13 @@ const ProductDetails = () => {
   useEffect(() => {
     const fetchText = async () => {
       try {
-        const response = await fetch(`/data/${productId}.txt`);
+        const locale = intl.locale;
+        const path =
+          locale == "ar"
+            ? `/data/${productId}.txt`
+            : `/dataHeb/${productId}.txt`;
+        console.log("locale", locale);
+        const response = await fetch(path);
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
@@ -41,7 +49,7 @@ const ProductDetails = () => {
     if (productId) {
       fetchText();
     }
-  }, [productId]);
+  }, [productId, intl]);
 
   const addProductToCart = () => {
     dispatch(addItemToCart(product));
