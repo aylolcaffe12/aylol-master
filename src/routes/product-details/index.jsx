@@ -7,6 +7,7 @@ import Markdown from "react-markdown";
 import Button from "../../components/button/button.component";
 import { addItemToCart, toggleMinicart } from "../../store/minicart.reducer";
 import { useIntl } from "react-intl";
+import ProductCard from "../../components/product-card/product-card.component";
 
 const ProductDetails = () => {
   const intl = useIntl();
@@ -58,20 +59,7 @@ const ProductDetails = () => {
 
   return (
     <div className="container product-container">
-      <div className="product-card-container">
-        <div className="img-container">
-          <img
-            src={imageUrl}
-            alt={name}
-            loading="lazy"
-            onClick={() => navigate(`${product.id}`)}
-          />
-        </div>
-        <div className="product-footer">
-          <h3 className="name">{name}</h3>
-          <p className="price">₪ {price?.toFixed(2)}</p>
-        </div>
-      </div>
+      <ProductCard product={product} />
       <Markdown style={{ width: "100px", overflow: "hidden" }} breaks>
         {text}
       </Markdown>

@@ -27,16 +27,22 @@ const ProductCard = memo(({ product }) => {
         <Button
           type="button"
           style=""
+          className="btn1"
           label="Add to cart"
           onClick={addProductToCart}
         />
       </div>
       <div className="product-footer">
         <h3 className="name">{name}</h3>
-        <p className="price">
-          <div className="price1">₪{price?.toFixed(2)}</div>
-          <div className="price2">₪{price?.toFixed(2)}</div>
-        </p>
+        <div className="footer-card">
+          <p className="price">
+            <div className="price1">₪{price?.toFixed(2)}</div>
+            <div className="price2">₪{price?.toFixed(2)}</div>
+          </p>
+          <div onClick={addProductToCart} className="add-to-cart">
+            +
+          </div>
+        </div>
       </div>
     </div>
   );
