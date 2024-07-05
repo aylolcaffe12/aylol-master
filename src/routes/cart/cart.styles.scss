@@ -101,10 +101,11 @@
     }
   }
   .name,
-  .quantity,
-  .price {
-    flex:2;
+  .quantity
+   {
+    flex:1;
   }
+
 
   .name {
     flex:2;
