@@ -97,7 +97,7 @@ import makeup355 from "./assets/pictures/355.jpg";
 import makeup356 from "./assets/pictures/356.jpg";
 import makeup357 from "./assets/pictures/357.jpg";
 import makeup358 from "./assets/pictures/358.jpg";
-import makeup358 from "./assets/pictures/359.jpg";
+import makeup359 from "./assets/pictures/359.jpg";
 
 
 
@@ -1033,7 +1033,9 @@ export const SHOP_DATA = [
         price: 35,
       },
     ],
-      // skin care
+  },
+  {
+      // lenses care
       title: "lenses",
       items: [
         {
@@ -1096,7 +1098,7 @@ export const SHOP_DATA = [
           imageUrl: lenses1309,
           price: 500,
         },
-      ]  
+      ] ,
   },
-  
+
 ];
