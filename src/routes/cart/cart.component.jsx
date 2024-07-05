@@ -49,7 +49,7 @@ const CartComponent = () => {
     const tableBody = cartItems.map((item) => [
       item.name,
       item.quantity,
-      `$${item.price.toFixed(2)}`,
+      `₪${item.price.toFixed(2)}`,
       { content: "", styles: { cellWidth: 30, cellPadding: 0 } },
     ]);
 
@@ -83,7 +83,7 @@ const CartComponent = () => {
 
     // Add total price
     doc.text(
-      `Total: $${bagTotalPrice.toFixed(2)}`,
+      `Total: ₪${bagTotalPrice.toFixed(2)}`,
       10,
       doc.autoTable.previous.finalY + 10
     );
@@ -125,10 +125,10 @@ const CartComponent = () => {
     cartItems.forEach((item) => {
       message += `${item.name.padEnd(18)}${item.quantity
         .toString()
-        .padEnd(12)}$${item.price.toFixed(2).padStart(10)}\n`;
+        .padEnd(12)}₪${item.price.toFixed(2).padStart(10)}\n`;
     });
 
-    message += `\nTotal: $${bagTotalPrice.toFixed(2)}`;
+    message += `\nTotal: ₪${bagTotalPrice.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972522911779".replace(/\D/g, ""); // Ensure phone number is in the correct format
@@ -148,7 +148,7 @@ const CartComponent = () => {
         <>
           <h1>Cart</h1>
           <div className="total">
-            <div>Total:</div> $ {bagTotalPrice.toFixed(2)}
+            <div>Total:</div> ₪ {bagTotalPrice.toFixed(2)}
           </div>
         </>
       )}
@@ -221,7 +221,7 @@ const CartComponent = () => {
                     </button>
                   </div>
                   <div className="price text-right">
-                    $ {item.price.toFixed(2)}
+                    ₪ {item.price.toFixed(2)}
                   </div>
                   <div className="remove-button text-center">
                     <button

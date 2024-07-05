@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import "./category-item.styles.scss";
+import { FormattedMessage } from "react-intl";
 
 const CategoryItem = ({ category }) => {
-  const { title, imageUrl, route } = category;
+  const { titleId, imageUrl, route } = category;
 
   return (
     <div className="category-container large">
@@ -14,7 +15,9 @@ const CategoryItem = ({ category }) => {
         }}
       ></Link>
       <div className="category-body-container">
-        <h2>{title}</h2>
+        <h2>
+          <FormattedMessage id={titleId} defaultMessage={titleId} />
+        </h2>
       </div>
     </div>
   );

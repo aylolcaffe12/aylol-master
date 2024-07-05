@@ -1,15 +1,43 @@
 import { Outlet, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
+import { FormattedMessage } from "react-intl";
 import ig_icon from "../../assets/ig-instagram-icon.svg";
+import language from "../../assets/language-svgrepo-com.svg";
 import CartIcon from "./../../components/cart/cart-icon.component.jsx";
 import Minicart from "../../components/cart/minicart.component.jsx";
 import { logOutUser } from "../../utils/firebase/firebase.utils";
 import Logo from "../../assets/crown.png";
 import "./navigation.styles.scss";
-import FooterComponent from "../../components/footer/footer.component.jsx";
+import useOutsideClicker from "./useOutsideClicker.js";
 
-const Navigation = () => {
+const Navigation = ({ switchLanguage }) => {
   const currentUser = useSelector((state) => state.user.currentUser);
+
+  const [openLanguage, setOpenLanguage] = useState(false);
+  const [animate, setAnimate] = useState(false);
+  const closeLanguage = () => {
+    setOpenLanguage(false);
+  };
+  const ref = useOutsideClicker(closeLanguage);
+  const toggleLanguage = () => {
+    setOpenLanguage((prev) => !prev);
+  };
+
+  const changeLanguage = (lang) => {
+    switchLanguage(lang);
+    closeLanguage();
+  };
+
+  useEffect(() => {
+    if (openLanguage) {
+      const timer = setTimeout(() => setAnimate(true), 150);
+      return () => clearTimeout(timer);
+    } else {
+      const timer = setTimeout(() => setAnimate(false), 150);
+      return () => clearTimeout(timer);
+    }
+  }, [openLanguage]);
 
   return (
     <>
@@ -18,8 +46,35 @@ const Navigation = () => {
           <Link className="logo-container" to={"/"}>
             <img src={Logo} alt="" className="" />
           </Link>
+          {/* <h1>
+            <FormattedMessage id="welcome" defaultMessage="Welcome" />
+          </h1> */}
 
           <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+            <div className="language-container">
+              <img
+                src={language}
+                alt=""
+                className=""
+                onClick={toggleLanguage}
+              />
+              {openLanguage && (
+                <div
+                  ref={ref}
+                  className={`language-dropdown-container ${
+                    animate ? "show" : ""
+                  }`}
+                >
+                  <div className="item" onClick={() => changeLanguage("ar")}>
+                    عربي
+                  </div>
+                  <div className="divider" />
+                  <div className="item" onClick={() => changeLanguage("heb")}>
+                    עברית
+                  </div>
+                </div>
+              )}
+            </div>
             <a
               href="https://www.instagram.com/mis.floora"
               target="_blank"

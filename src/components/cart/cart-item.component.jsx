@@ -12,7 +12,7 @@ const CartItem = memo(({ cartItem }) => {
         <h3 className='name'>{name}</h3>
         <span className='info'>
           Qty: {quantity} <br/>
-          <span className='price'>$ {price.toFixed(2)}</span>
+          <span className='price'>₪ {price.toFixed(2)}</span>
         </span>
       </div>
     </div>

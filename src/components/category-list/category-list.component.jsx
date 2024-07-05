@@ -11,39 +11,39 @@ import lenses from "./mainPic/lenses.jpg";
 const categories = [
   {
     id: 1,
-    title: "Skin Care",
+    titleId: "skincare",
     imageUrl: skincare,
     route: "shop/skincare",
   },
   {
     id: 2,
-    title: "Body Care",
+    titleId: "bodycare",
     imageUrl: bodycare,
     route: "shop/body-lotions",
   },
   {
     id: 3,
-    title: "Hair Care",
+    titleId: "haircare",
     imageUrl: haircare,
     route: "shop/haircare",
   },
   {
     id: 4,
-    title: "Make Up",
+    titleId: "makeup",
     imageUrl: makeup,
-        route: "shop/makeups",
+    route: "shop/makeups",
   },
   {
     id: 5,
-    title: "Perfume & Musk",
-    imageUrl: perfume ,
-        route: "shop/perfumes",
+    titleId: "perfume_musk",
+    imageUrl: perfume,
+    route: "shop/perfumes",
   },
   {
     id: 6,
-    title: "Lenses",
-    imageUrl: lenses ,
-        route: "shop/lenses",
+    titleId: "lenses",
+    imageUrl: lenses,
+    route: "shop/lenses",
   },
 ];
 

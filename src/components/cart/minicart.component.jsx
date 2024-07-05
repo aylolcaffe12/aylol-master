@@ -47,7 +47,7 @@ const Minicart = memo(() => {
                 {cartItems.map(item => <CartItem key={item.id} cartItem={item} /> )}
               </div>
               <div className='minicart-total medium-barlow-cond'>
-                Total: <span>$ {bagTotalPrice.toFixed(2)}</span>
+                Total: <span>₪ {bagTotalPrice.toFixed(2)}</span>
               </div>
                 <Link className='button-container' to={'/cart'}>Go to Cart</Link>
             </>

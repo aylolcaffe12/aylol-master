@@ -33,7 +33,7 @@ const ProductCard = memo(({ product }) => {
       </div>
       <div className="product-footer">
         <h3 className="name">{name}</h3>
-        <p className="price">$ {price?.toFixed(2)}</p>
+        <p className="price">₪ {price?.toFixed(2)}</p>
       </div>
     </div>
   );
