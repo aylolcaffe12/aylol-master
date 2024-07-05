@@ -1,7 +1,7 @@
 import { memo } from "react";
 import { useDispatch } from "react-redux";
 import { addItemToCart, toggleMinicart } from "../../store/minicart.reducer";
-
+import addtocartimage from "../../assets/icons8-add-to-cart-48.png";
 import Button from "../button/button.component";
 import "./product-card.styles.scss";
 import { useNavigate } from "react-router-dom";
@@ -40,7 +40,7 @@ const ProductCard = memo(({ product }) => {
             <div className="price2">₪{price?.toFixed(2)}</div>
           </p>
           <div onClick={addProductToCart} className="add-to-cart">
-            +
+            <img src={addtocartimage} />
           </div>
         </div>
       </div>
