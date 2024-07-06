@@ -52,6 +52,22 @@ const Navigation = ({ switchLanguage }) => {
           </h1> */}
 
           <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+            <a
+              href="https://www.instagram.com/mis.floora"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={ig_icon}
+                style={{ width: "28px", height: "28px", cursor: "pointer" }}
+                alt="icon"
+              />
+            </a>
+            <img
+              src={waze_icon}
+              style={{ width: "42px", height: "42px", cursor: "pointer" }}
+              alt="icon"
+            />
             <div className="language-container">
               <img
                 src={language}
@@ -76,22 +92,7 @@ const Navigation = ({ switchLanguage }) => {
                 </div>
               )}
             </div>
-            <a
-              href="https://www.instagram.com/mis.floora"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={ig_icon}
-                style={{ width: "28px", height: "28px", cursor: "pointer" }}
-                alt="icon"
-              />
-            </a>
-            <img
-              src={waze_icon}
-              style={{ width: "42px", height: "42px", cursor: "pointer" }}
-              alt="icon"
-            />
+
             <CartIcon />
             <Minicart />
           </div>

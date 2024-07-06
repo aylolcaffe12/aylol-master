@@ -7,7 +7,9 @@
   justify-content: center;
   cursor: pointer;
   user-select: none;
-  margin-left: 5px;
+  border-radius: 8px;
+  padding: 6px;
+  background-color: #fface9;
 
   .shopping-icon {
     width: 24px;
@@ -18,6 +20,6 @@
     position: absolute;
     font-size: 10px;
     font-weight: bold;
-    bottom: 3px;
+    bottom: 9px;
   }
 }
