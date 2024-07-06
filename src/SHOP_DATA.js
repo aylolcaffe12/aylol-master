@@ -159,8 +159,8 @@ export const SHOP_DATA = [
         name: "Skin Care",
         imageUrl: skincare2,
         des: "",
-        price: null,
-        price2: 550,
+        price: 500,
+        price2: null,
         disprice: 0,
       },
       {
