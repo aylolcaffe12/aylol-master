@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { FormattedMessage } from "react-intl";
 import ig_icon from "../../assets/ig-instagram-icon.svg";
+import waze_icon from "../../assets/icons8-waze-100.png";
 import language from "../../assets/language-svgrepo-com.svg";
 import CartIcon from "./../../components/cart/cart-icon.component.jsx";
 import Minicart from "../../components/cart/minicart.component.jsx";
@@ -86,6 +87,11 @@ const Navigation = ({ switchLanguage }) => {
                 alt="icon"
               />
             </a>
+            <img
+              src={waze_icon}
+              style={{ width: "42px", height: "42px", cursor: "pointer" }}
+              alt="icon"
+            />
             <CartIcon />
             <Minicart />
           </div>
