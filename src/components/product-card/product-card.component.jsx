@@ -24,13 +24,6 @@ const ProductCard = memo(({ product }) => {
           loading="lazy"
           onClick={() => navigate(`${product.id}`)}
         />
-        <Button
-          type="button"
-          style=""
-          className="btn1"
-          label="Add to cart"
-          onClick={addProductToCart}
-        />
       </div>
       <div className="product-footer">
         <h3 className="name">{name}</h3>
