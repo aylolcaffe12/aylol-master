@@ -162,78 +162,76 @@ const CartComponent = () => {
         </div>
       ) : (
         <>
-          <div id="cart-invoice">
-            <div className="info-container">
-              <FormInput
-                label="שם ושם משפחה"
-                type="text"
-                name="name"
-                onChange={handleChange}
-                value={values.name}
-                required
-              />
-              <FormInput
-                label="מיקום"
-                type="text"
-                name="location"
-                onChange={handleChange}
-                value={values.location}
-                required
-              />
-              <div className="cart-header semibold-barlow-cond">
-                <div className="header-block">Product</div>
-                <div className="header-block"></div>
-                <div className="header-block text-center">Quantity</div>
-                <div className="header-block text-right">Unit Price</div>
-                <div className="header-block"></div>
-              </div>
-              {cartItems.map((item) => {
-                return (
-                  <div key={item.id} className="cart-item-container">
-                    <div className="image-container">
-                      <img src={item.imageUrl} alt="" />
-                    </div>
-                    <div className="name medium-barlow-cond">{item.name}</div>
-                    <div className="quantity">
-                      <button
-                        type="button"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                        onClick={() => handleRemoveOrDecrease(item)}
-                      >
-                        -
-                      </button>
-                      <span className="value">{item.quantity}</span>
-                      <button
-                        type="button"
-                        onClick={() => handleAddToCart(item)}
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        +
-                      </button>
-                    </div>
-                    <div className="price text-right">
-                      ₪ {item.price.toFixed(2)}
-                    </div>
-                    <div className="remove-button text-center">
-                      <button
-                        type="button"
-                        onClick={() => handleRemoveOrDecrease(item, true)}
-                      >
-                        &#10005;
-                      </button>
-                    </div>
-                  </div>
-                );
-              })}
+          <div className="info-container">
+            <FormInput
+              label="שם ושם משפחה"
+              type="text"
+              name="name"
+              onChange={handleChange}
+              value={values.name}
+              required
+            />
+            <FormInput
+              label="מיקום"
+              type="text"
+              name="location"
+              onChange={handleChange}
+              value={values.location}
+              required
+            />
+            <div className="cart-header semibold-barlow-cond">
+              <div className="header-block">Product</div>
+              <div className="header-block"></div>
+              <div className="header-block text-center">Quantity</div>
+              <div className="header-block text-right">Unit Price</div>
+              <div className="header-block"></div>
             </div>
+            {cartItems.map((item) => {
+              return (
+                <div key={item.id} className="cart-item-container">
+                  <div className="image-container">
+                    <img src={item.imageUrl} alt="" />
+                  </div>
+                  <div className="name medium-barlow-cond">{item.name}</div>
+                  <div className="quantity">
+                    <button
+                      type="button"
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                      onClick={() => handleRemoveOrDecrease(item)}
+                    >
+                      -
+                    </button>
+                    <span className="value">{item.quantity}</span>
+                    <button
+                      type="button"
+                      onClick={() => handleAddToCart(item)}
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
+                      +
+                    </button>
+                  </div>
+                  <div className="price text-right">
+                    ₪ {item.price.toFixed(2)}
+                  </div>
+                  <div className="remove-button text-center">
+                    <button
+                      type="button"
+                      onClick={() => handleRemoveOrDecrease(item, true)}
+                    >
+                      &#10005;
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </>
       )}
