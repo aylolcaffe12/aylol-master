@@ -118,17 +118,17 @@ const CartComponent = () => {
   const sendWhatsAppMessage = () => {
     const { name, location, phone } = values;
 
-    let message = `Name: ${name}\nLocation: ${location}\n\nItems:\n`;
-    message += "Product            Quantity    Unit Price\n";
+    let message = `Name: ${name}\nLocation: ${location}\nPhone: ${phone}\n\nItems:\n`;
     message += "------------------------------------------\n";
 
     cartItems.forEach((item) => {
-      message += `${item.name.padEnd(18)}${item.quantity
-        .toString()
-        .padEnd(12)}₪${item.price.toFixed(2).padStart(10)}\n`;
+      message += `Product: ${item.name}\n`;
+      message += `Quantity: ${item.quantity}\n`;
+      message += `Unit Price: ₪${item.price.toFixed(2)}\n`;
+      message += "------------------------------------------\n";
     });
 
-    message += `\nTotal: ₪${bagTotalPrice.toFixed(2)}`;
+    message += `Total: ₪${bagTotalPrice.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972522911779".replace(/\D/g, ""); // Ensure phone number is in the correct format
@@ -136,6 +136,12 @@ const CartComponent = () => {
 
     // Open WhatsApp link
     window.open(whatsappLink, "_blank");
+  };
+
+  const [selectedLocation, setSelectedLocation] = useState("");
+
+  const handleChange2 = (event) => {
+    setSelectedLocation(event.target.value);
   };
 
   return (
@@ -163,6 +169,48 @@ const CartComponent = () => {
       ) : (
         <>
           <div className="info-container">
+            {/* <div className="location-selector">
+              <div className="radio-group">
+                <label>
+                  <input
+                    type="radio"
+                    value="צפון"
+                    checked={selectedLocation === "צפון"}
+                    onChange={handleChange}
+                  />
+                  צפון
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    value="מרכז"
+                    checked={selectedLocation === "מרכז"}
+                    onChange={handleChange}
+                  />
+                  מרכז
+                </label>
+              </div>
+              <div className="radio-group">
+                <label>
+                  <input
+                    type="radio"
+                    value="דרום"
+                    checked={selectedLocation === "דרום"}
+                    onChange={handleChange}
+                  />
+                  דרום
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    value="ירושלים"
+                    checked={selectedLocation === "ירושלים"}
+                    onChange={handleChange}
+                  />
+                  ירושלים
+                </label>
+              </div>
+            </div> */}
             <FormInput
               label="שם ושם משפחה"
               type="text"

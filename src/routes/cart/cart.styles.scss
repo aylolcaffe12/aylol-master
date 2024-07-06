@@ -6,6 +6,7 @@
   flex-direction: column;
   position: relative;
 
+
   &.empty-container {
     flex: 1;
     flex-direction: column;
@@ -25,6 +26,49 @@
     flex-direction: column;
     padding: 20px;
     margin-bottom: 100px;
+
+    .location-selector {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 90%;
+      background-color: #f9f9f9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .location-selector h3 {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      display: flex;
+    }
+    
+    .radio-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      width: 100%;
+      margin: 5px 0;
+    }
+    
+    .radio-group label {
+      font-size: 1em;
+    }
+    
+    .location-selector input[type="radio"] {
+      margin-right: 10px;
+    }
+    
+    .location-selector p {
+      margin-top: 20px;
+      font-size: 1em;
+      color: #333;
+    }
+    
   }
   .total {
     display: flex;
