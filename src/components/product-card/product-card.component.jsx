@@ -7,7 +7,7 @@ import "./product-card.styles.scss";
 import { useNavigate } from "react-router-dom";
 
 const ProductCard = memo(({ product }) => {
-  const { name, imageUrl, price } = product;
+  const { name, imageUrl, price, price2 } = product;
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const addProductToCart = () => {
@@ -37,7 +37,7 @@ const ProductCard = memo(({ product }) => {
         <div className="footer-card">
           <p className="price">
             <div className="price1">₪{price?.toFixed(2)}</div>
-            <div className="price2">₪{price?.toFixed(2)}</div>
+            {price2 && <div className="price2">₪{price2?.toFixed(2)}</div>}
           </p>
           <div onClick={addProductToCart} className="add-to-cart">
             <img src={addtocartimage} />
