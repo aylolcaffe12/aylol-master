@@ -152,6 +152,7 @@ const CartComponent = () => {
   const [selectedLocation, setSelectedLocation] = useState("");
   const handleChange2 = (event) => {
     setSelectedLocation(event.target.value);
+    
   };
 
   return (
@@ -209,7 +210,7 @@ const CartComponent = () => {
               required
             />
             <FormInput
-              label="מיקום"
+              label="משלוח"
               type="text"
               name="location"
               onChange={handleChange}

@@ -1023,7 +1023,7 @@ export const SHOP_DATA = [
         name: "Miss five powder cake ",
         imageUrl: makeup358,
         des: "",
-        price: 100,
+        price: 70,
         price2: null,
         disprice: 0,
       },
