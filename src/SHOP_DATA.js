@@ -570,8 +570,7 @@ export const SHOP_DATA = [
         disprice: 0,
       },
       {
-        id: 308,
-        name: "",
+        id: 308,        name: "bobbi brown highlighting powder chestnut",
         imageUrl: makeup308,
         des: "",
         price: 150,
@@ -844,7 +843,7 @@ export const SHOP_DATA = [
         name: "⁠Elf Halo Glow Beauty Wand highlighter champage campaign",
         imageUrl: makeup338,
         des: "",
-        price: 0,
+        price: 90,
         price2: null,
         disprice: 0,
       },
@@ -1356,35 +1355,37 @@ export const SHOP_DATA = [
         id: 1600,
         name: "Gift 1",
         imageUrl: gifts1600,
-        price: 100,
-        price2: 0,
+        price: null,
+        price2: null,
         disprice: 0,
       },
       {
         id: 1601,
         name: "Gift 2",
         imageUrl: gifts1601,
-        price: 100,
-        price2: 0,
+        price: null,
+        price2: null,
         disprice: 0,
       },
       {
         id: 1602,
         name: "Gift 3",
         imageUrl: gifts1602,
-        price: 100,
-        price2: 0,
+        price: null,
+        price2: null,
         disprice: 0,
       },
       {
         id: 1603,
         name: "Gift 4",
         imageUrl: gifts1603,
-        price: 100,
-        price2: 0,
+        price: null,
+        price2: null,
         disprice: 0,
       },
+
+
     
-    ],
-  },
+    ]
+  }
 ];
