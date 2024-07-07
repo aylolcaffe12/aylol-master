@@ -118,7 +118,7 @@ const CartComponent = () => {
   const sendWhatsAppMessage = () => {
     const { name, location, phone } = values;
 
-    let message = `Name: ${name}\nLocation: ${location}\nPhone: ${phone}\n\nItems:\n`;
+    let message = `Name: ${name}\nLocation: ${selectedLocation}, ${location}\nPhone: ${phone}\n\nItems:\n`;
     message += "------------------------------------------\n";
 
     cartItems.forEach((item) => {
@@ -138,8 +138,18 @@ const CartComponent = () => {
     window.open(whatsappLink, "_blank");
   };
 
-  const [selectedLocation, setSelectedLocation] = useState("");
+  const locations = [
+    { label: "אזור נצרת והסביבה", price: "50₪" },
+    { label: "אזור טבריה", price: "50₪" },
+    { label: "אזור סכנין והסביבה", price: "50₪" },
+    { label: "אזור שפרעם חיפה", price: "50₪" },
+    { label: "אזור תל אביב ומרכז", price: "100₪" },
+    { label: "אזור דרום", price: "150₪" },
+    { label: "אזור טיבה משולש", price: "100₪" },
+    { label: "אזור קריית שמונה", price: "80₪" },
+  ];
 
+  const [selectedLocation, setSelectedLocation] = useState("");
   const handleChange2 = (event) => {
     setSelectedLocation(event.target.value);
   };
@@ -169,48 +179,27 @@ const CartComponent = () => {
       ) : (
         <>
           <div className="info-container">
-            {/* <div className="location-selector">
-              <div className="radio-group">
-                <label>
-                  <input
-                    type="radio"
-                    value="צפון"
-                    checked={selectedLocation === "צפון"}
-                    onChange={handleChange}
-                  />
-                  צפון
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    value="מרכז"
-                    checked={selectedLocation === "מרכז"}
-                    onChange={handleChange}
-                  />
-                  מרכז
-                </label>
-              </div>
-              <div className="radio-group">
-                <label>
-                  <input
-                    type="radio"
-                    value="דרום"
-                    checked={selectedLocation === "דרום"}
-                    onChange={handleChange}
-                  />
-                  דרום
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    value="ירושלים"
-                    checked={selectedLocation === "ירושלים"}
-                    onChange={handleChange}
-                  />
-                  ירושלים
-                </label>
-              </div>
-            </div> */}
+            <div className="location-select-container">
+              <select
+                className="location-select"
+                value={selectedLocation}
+                onChange={handleChange2}
+              >
+                <option value="" disabled>
+                  Select a location
+                </option>
+                {locations.map((location, index) => (
+                  <option key={index} value={location.label}>
+                    {location.label} {location.price}
+                  </option>
+                ))}
+              </select>
+              {/* {selectedLocation && (
+                <p className="selected-location">
+                  Selected Location: {selectedLocation}
+                </p>
+              )} */}
+            </div>
             <FormInput
               label="שם ושם משפחה"
               type="text"
