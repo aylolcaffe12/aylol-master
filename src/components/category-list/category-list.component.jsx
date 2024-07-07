@@ -6,6 +6,7 @@ import haircare from "./mainPic/haircare.jpg";
 import makeup from "./mainPic/makeup.jpg";
 import perfume from "./mainPic/perfume.jpg";
 import lenses from "./mainPic/lenses.jpg";
+import gifts from "./mainPic/gifts.jpg";
 
 
 const categories = [
@@ -44,6 +45,12 @@ const categories = [
     titleId: "lenses",
     imageUrl: lenses,
     route: "shop/lenses",
+  },
+  {
+    id: 7,
+    titleId: "gifts",
+    imageUrl: gifts,
+    route: "shop/gifts",
   },
 ];
 

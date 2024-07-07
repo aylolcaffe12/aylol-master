@@ -141,6 +141,11 @@ import lenses1307 from "./assets/pictures/1307.jpg";
 import lenses1308 from "./assets/pictures/1308.jpg";
 import lenses1309 from "./assets/pictures/1309.jpg";
 
+
+import gifts1600 from "./assets/pictures/1600.jpg";
+import gifts1601 from "./assets/pictures/1601.jpg";
+import gifts1602 from "./assets/pictures/1602.jpg";
+import gifts1603 from "./assets/pictures/1603.jpg";
 export const SHOP_DATA = [
   {
     // skin care
@@ -1341,6 +1346,45 @@ export const SHOP_DATA = [
         price2: 0,
         disprice: 0,
       },
+    ],
+  },
+  {
+    // gifts care
+    title: "gifts",
+    items: [
+      {
+        id: 1600,
+        name: "Gift 1",
+        imageUrl: gifts1600,
+        price: 100,
+        price2: 0,
+        disprice: 0,
+      },
+      {
+        id: 1601,
+        name: "Gift 2",
+        imageUrl: gifts1601,
+        price: 100,
+        price2: 0,
+        disprice: 0,
+      },
+      {
+        id: 1602,
+        name: "Gift 3",
+        imageUrl: gifts1602,
+        price: 100,
+        price2: 0,
+        disprice: 0,
+      },
+      {
+        id: 1603,
+        name: "Gift 4",
+        imageUrl: gifts1603,
+        price: 100,
+        price2: 0,
+        disprice: 0,
+      },
+    
     ],
   },
 ];
