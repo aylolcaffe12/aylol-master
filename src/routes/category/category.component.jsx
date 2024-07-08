@@ -25,7 +25,7 @@ const Category = () => {
         <SpinnerComponent />
       ) : (
         <div className="container page-container">
-          <div
+          {/* <div
             style={{
               display: "flex",
               justifyContent: "space-between",
@@ -37,7 +37,7 @@ const Category = () => {
             <span className="product-count" style={{}}>
               {products && ` ${products.length} products`}
             </span>
-          </div>
+          </div> */}
           <div className="shop-container">
             {products &&
               products.map((product) => {
