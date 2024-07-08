@@ -236,7 +236,7 @@ const CartComponent = () => {
             pauseOnHover
             theme="dark"
           />
-          <h1>{intl.formatMessage({ id: "cart" })}</h1>
+          {/* <h1>{intl.formatMessage({ id: "cart" })}</h1> */}
           <div className="total">
             {totalAll.toFixed(2)}₪
             <Button
