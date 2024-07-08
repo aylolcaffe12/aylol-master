@@ -6,6 +6,25 @@
     "makeup": "איפור",
     "perfume_musk": "בושם ומוסק",
     "lenses": "עדשות",
-    "gifts" :"מתנות"
+    "gifts" :"מתנות",
+    "locations.nazareth": "אזור נצרת והסביבה",
+    "locations.tiberias": "אזור טבריה",
+    "locations.sakhnin": "אזור סכנין והסביבה",
+    "locations.shefa_amr_haifa": "אזור שפרעם חיפה",
+    "locations.tel_aviv_center": "אזור תל אביב ומרכז",
+    "locations.south": "אזור דרום",
+    "locations.tira": "אזור טיבה משולש",
+    "locations.kiryat_shmona": "אזור קריית שמונה",
+    "cart.empty": "העגלה שלך ריקה",
+    "cart.go_shopping": "לך לקניות",
+    "select_location": "בחר מיקום",
+    "full_name": "שם פרטי",
+    "location": "מיקום",
+    "product": "מוצר",
+    "quantity": "כמות",
+    "unit_price": "מחיר יחידה",
+    "send": "שליחה",
+    "add_product": "הוסף לעגלה",
+    "go_to_cart": "לך לעגלה"
 }
 

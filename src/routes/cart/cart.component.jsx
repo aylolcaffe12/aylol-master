@@ -1,8 +1,9 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
+import { useIntl } from "react-intl";
 import FormInput from "../../components/form-input/form-input.component";
 import {
   addItemToCart,
@@ -19,7 +20,7 @@ const CartComponent = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector(selectCartItems);
   const bagTotalPrice = useSelector(selectBagTotalPrice);
-
+  const [selectedLocation, setSelectedLocation] = useState("");
   const handleAddToCart = (product) => {
     if (product.quantity < 10) {
       dispatch(addItemToCart(product));
@@ -35,6 +36,8 @@ const CartComponent = () => {
     const { name, value } = e.target;
     setValues((prev) => ({ ...prev, [name]: value }));
   }, []);
+
+  const intl = useIntl();
 
   const generatePDF = async () => {
     const { name, location } = values;
@@ -83,7 +86,7 @@ const CartComponent = () => {
 
     // Add total price
     doc.text(
-      `Total: ₪${bagTotalPrice.toFixed(2)}`,
+      `Total: ₪${totalAll.toFixed(2)}`,
       10,
       doc.autoTable.previous.finalY + 10
     );
@@ -128,7 +131,7 @@ const CartComponent = () => {
       message += "------------------------------------------\n";
     });
 
-    message += `Total: ₪${bagTotalPrice.toFixed(2)}`;
+    message += `Total: ₪${totalAll.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972522911779".replace(/\D/g, ""); // Ensure phone number is in the correct format
@@ -139,21 +142,29 @@ const CartComponent = () => {
   };
 
   const locations = [
-    { label: "אזור נצרת והסביבה", price: "50₪" },
-    { label: "אזור טבריה", price: "50₪" },
-    { label: "אזור סכנין והסביבה", price: "50₪" },
-    { label: "אזור שפרעם חיפה", price: "50₪" },
-    { label: "אזור תל אביב ומרכז", price: "100₪" },
-    { label: "אזור דרום", price: "150₪" },
-    { label: "אזור טיבה משולש", price: "100₪" },
-    { label: "אזור קריית שמונה", price: "80₪" },
+    { label: "locations.nazareth", price: 50 },
+    { label: "locations.tiberias", price: 50 },
+    { label: "locations.sakhnin", price: 50 },
+    { label: "locations.shefa_amr_haifa", price: 50 },
+    { label: "locations.tel_aviv_center", price: 100 },
+    { label: "locations.south", price: 150 },
+    { label: "locations.tira", price: 100 },
+    { label: "locations.kiryat_shmona", price: 80 },
   ];
 
-  const [selectedLocation, setSelectedLocation] = useState("");
+  const locationPrice = useMemo(
+    () => locations.find((elem) => elem.label === selectedLocation)?.price ?? 0,
+    [selectedLocation]
+  );
+
   const handleChange2 = (event) => {
     setSelectedLocation(event.target.value);
-    
   };
+
+  const totalAll = useMemo(
+    () => bagTotalPrice + locationPrice,
+    [selectedLocation, bagTotalPrice]
+  );
 
   return (
     <div
@@ -165,16 +176,19 @@ const CartComponent = () => {
         <>
           <h1>Cart</h1>
           <div className="total">
-            {bagTotalPrice.toFixed(2)}₪
-            <Button label="שליחה" onClick={sendWhatsAppMessage} />
+            {totalAll.toFixed(2)}₪
+            <Button
+              label={intl.formatMessage({ id: "send" })}
+              onClick={sendWhatsAppMessage}
+            />
           </div>
         </>
       )}
       {!cartItems.length ? (
         <div>
-          <h2>Your Cart is empty</h2>
+          <h2>{intl.formatMessage({ id: "cart.empty" })}</h2>
           <Link className="button-container" to={"/shop"}>
-            Go Shopping
+            {intl.formatMessage({ id: "cart.go_shopping" })}
           </Link>
         </div>
       ) : (
@@ -187,11 +201,12 @@ const CartComponent = () => {
                 onChange={handleChange2}
               >
                 <option value="" disabled>
-                  Select a location
+                  {intl.formatMessage({ id: "select_location" })}
                 </option>
                 {locations.map((location, index) => (
                   <option key={index} value={location.label}>
-                    {location.label} {location.price}
+                    {intl.formatMessage({ id: location.label })} -{" "}
+                    {location.price}
                   </option>
                 ))}
               </select>
@@ -202,7 +217,7 @@ const CartComponent = () => {
               )} */}
             </div>
             <FormInput
-              label="שם ושם משפחה"
+              label={intl.formatMessage({ id: "full_name" })}
               type="text"
               name="name"
               onChange={handleChange}
@@ -210,7 +225,7 @@ const CartComponent = () => {
               required
             />
             <FormInput
-              label="משלוח"
+              label={intl.formatMessage({ id: "location" })}
               type="text"
               name="location"
               onChange={handleChange}
@@ -218,10 +233,16 @@ const CartComponent = () => {
               required
             />
             <div className="cart-header semibold-barlow-cond">
-              <div className="header-block">Product</div>
+              <div className="header-block">
+                {intl.formatMessage({ id: "product" })}
+              </div>
               <div className="header-block"></div>
-              <div className="header-block text-center">Quantity</div>
-              <div className="header-block text-right">Unit Price</div>
+              <div className="header-block text-center">
+                {intl.formatMessage({ id: "quantity" })}
+              </div>
+              <div className="header-block text-right">
+                {intl.formatMessage({ id: "unit_price" })}
+              </div>
               <div className="header-block"></div>
             </div>
             {cartItems.map((item) => {

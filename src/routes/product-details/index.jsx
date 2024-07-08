@@ -64,7 +64,10 @@ const ProductDetails = () => {
         {text}
       </Markdown>
       <div className="sticky-footer">
-        <Button label="اضف الى السلة" onClick={addProductToCart} />
+        <Button
+          label={intl.formatMessage({ id: "add_product" })}
+          onClick={addProductToCart}
+        />
       </div>
     </div>
   );
