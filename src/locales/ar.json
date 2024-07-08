@@ -26,6 +26,9 @@
     "send": "إرسال",
     "add_product": "أضف الى السلة",
     "go_to_cart": "اذهب إلى السلة",
-    "cart": "سلة"
+    "cart": "سلة",
+    "sent_successfully": "تم الارسال",
+    "please_pick_location": "يرجى اختيار موقع",
+    "please_write_full_name": "يرجى كتابة الاسم الكامل"
 
 }

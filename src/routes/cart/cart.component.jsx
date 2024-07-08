@@ -15,6 +15,8 @@ import {
 } from "../../store/minicart.selector";
 import "./cart.styles.scss";
 import Button from "../../components/button/button.component";
+import { toast, ToastContainer, Flip } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CartComponent = () => {
   const dispatch = useDispatch();
@@ -168,6 +170,50 @@ const CartComponent = () => {
     [selectedLocation, bagTotalPrice]
   );
 
+  const onSendItems = () => {
+    if (!values.name) {
+      toast.error(intl.formatMessage({ id: "please_write_full_name" }), {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Flip,
+      });
+      return;
+    }
+
+    if (!selectedLocation) {
+      toast.error(intl.formatMessage({ id: "please_pick_location" }), {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Flip,
+      });
+      return;
+    }
+
+    toast.success(intl.formatMessage({ id: "sent_successfully" }), {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      transition: Flip,
+    });
+    sendWhatsAppMessage();
+  };
   return (
     <div
       className={`container cart-container ${
@@ -176,7 +222,20 @@ const CartComponent = () => {
     >
       {cartItems.length > 0 && (
         <>
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
           <h1>{intl.formatMessage({ id: "cart" })}</h1>
+          <button onClick={onSendItems}>test</button>
           <div className="total">
             {totalAll.toFixed(2)}₪
             <Button
