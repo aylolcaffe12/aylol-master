@@ -138,22 +138,54 @@ const CartComponent = () => {
 
   const sendWhatsAppMessage = () => {
     const { name, location } = values;
+    const maxLength = 60;
 
-    let message = `שם: ${name}\nמיקום: ${selectedLocation}, ${location}\n\nפריטים:\n`;
-    message += "------------------------------------------\n";
+    const centerAlignText = (text, width) => {
+      const padding = Math.max(0, (width - text.length) / 2);
+      const leftPadding = "-".repeat(Math.floor(padding));
+      const rightPadding = "-".repeat(Math.ceil(padding));
+      return `${leftPadding}${text}${rightPadding}`;
+    };
+
+    const createTableLine = (content) => {
+      return `-${content.padEnd(maxLength - 2, " ")}-`;
+    };
+
+    const createTableHeaderOrFooter = () => {
+      return "-".repeat(maxLength);
+    };
+
+    let message = `${createTableHeaderOrFooter()}\n`;
+    message += `${centerAlignText("שם: " + name, maxLength)}\n`;
+    message += `${centerAlignText(
+      "מיקום: " + selectedLocation + ", " + location,
+      maxLength
+    )}\n`;
+    message += `${centerAlignText("פריטים:", maxLength)}\n`;
+    message += `${createTableHeaderOrFooter()}\n`;
 
     cartItems.forEach((item) => {
-      message += `מוצר: ${item.name}\n`;
-      message += `כמות: ${item.quantity}\n`;
-      message += `מחיר: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
-        item.quantity * item.price
-      ).toFixed(2)}\n`;
-      message += "------------------------------------------\n";
+      message += `${createTableLine("מוצר: " + item.name)}\n`;
+      message += `${createTableLine("כמות: " + item.quantity)}\n`;
+      message += `${createTableLine(
+        `מחיר: ₪${item.price.toFixed(2)} * ${item.quantity} = ₪${(
+          item.quantity * item.price
+        ).toFixed(2)}`
+      )}\n`;
+      message += `${createTableHeaderOrFooter()}\n`;
     });
 
-    message += `סך הכל: ₪${bagTotalPrice.toFixed(2)} + ₪${locationPrice.toFixed(
-      2
-    )} = ₪${totalAll.toFixed(2)}`;
+    message += `${centerAlignText(
+      "סך הכל: " +
+        locationPrice +
+        "₪  +  " +
+        bagTotalPrice +
+        "₪  = " +
+        totalAll.toFixed(2) +
+        "₪",
+      maxLength
+    )}\n`;
+    message += `${createTableHeaderOrFooter()}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972532837623".replace(/\D/g, ""); // Ensure phone number is in the correct format
