@@ -127,7 +127,9 @@ const CartComponent = () => {
     cartItems.forEach((item) => {
       message += `Product: ${item.name}\n`;
       message += `Quantity: ${item.quantity}\n`;
-      message += `Unit Price: ₪${item.price.toFixed(2)}\n`;
+      message += `Unit Price: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
+        item.quantity * item.price
+      ).toFixed(2)}\n`;
       message += "------------------------------------------\n";
     });
 
@@ -174,7 +176,7 @@ const CartComponent = () => {
     >
       {cartItems.length > 0 && (
         <>
-          <h1>Cart</h1>
+          <h1>{intl.formatMessage({ id: "cart" })}</h1>
           <div className="total">
             {totalAll.toFixed(2)}₪
             <Button
@@ -206,7 +208,7 @@ const CartComponent = () => {
                 {locations.map((location, index) => (
                   <option key={index} value={location.label}>
                     {intl.formatMessage({ id: location.label })} -{" "}
-                    {location.price}
+                    {location.price}₪
                   </option>
                 ))}
               </select>
