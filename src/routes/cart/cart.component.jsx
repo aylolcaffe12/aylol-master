@@ -18,6 +18,17 @@ import Button from "../../components/button/button.component";
 import { toast, ToastContainer, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+const locations = [
+  { label: "locations.nazareth", price: 50 },
+  { label: "locations.tiberias", price: 50 },
+  { label: "locations.sakhnin", price: 50 },
+  { label: "locations.shefa_amr_haifa", price: 50 },
+  { label: "locations.tel_aviv_center", price: 100 },
+  { label: "locations.south", price: 150 },
+  { label: "locations.tira", price: 100 },
+  { label: "locations.kiryat_shmona", price: 80 },
+];
+
 const CartComponent = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector(selectCartItems);
@@ -151,17 +162,6 @@ const CartComponent = () => {
     // Open WhatsApp link
     window.open(whatsappLink, "_blank");
   };
-
-  const locations = [
-    { label: "locations.nazareth", price: 50 },
-    { label: "locations.tiberias", price: 50 },
-    { label: "locations.sakhnin", price: 50 },
-    { label: "locations.shefa_amr_haifa", price: 50 },
-    { label: "locations.tel_aviv_center", price: 100 },
-    { label: "locations.south", price: 150 },
-    { label: "locations.tira", price: 100 },
-    { label: "locations.kiryat_shmona", price: 80 },
-  ];
 
   const handleChange2 = (event) => {
     setSelectedLocation(event.target.value);
