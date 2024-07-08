@@ -121,15 +121,15 @@ const CartComponent = () => {
   // };
 
   const sendWhatsAppMessage = () => {
-    const { name, location, phone } = values;
+    const { name, location } = values;
 
-    let message = `Name: ${name}\nLocation: ${selectedLocation}, ${location}\nPhone: ${phone}\n\nItems:\n`;
+    let message = `Name: ${name}\nLocation: ${selectedLocation}, ${location}\n\nItems:\n`;
     message += "------------------------------------------\n";
 
     cartItems.forEach((item) => {
       message += `Product: ${item.name}\n`;
       message += `Quantity: ${item.quantity}\n`;
-      message += `Unit Price: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
+      message += `Price: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
         item.quantity * item.price
       ).toFixed(2)}\n`;
       message += "------------------------------------------\n";
@@ -138,7 +138,7 @@ const CartComponent = () => {
     message += `Total: ₪${totalAll.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = "+972522911779".replace(/\D/g, ""); // Ensure phone number is in the correct format
+    const phoneNumber = "+972532837623".replace(/\D/g, ""); // Ensure phone number is in the correct format
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
     // Open WhatsApp link
