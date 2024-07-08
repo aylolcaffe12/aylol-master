@@ -123,19 +123,19 @@ const CartComponent = () => {
   const sendWhatsAppMessage = () => {
     const { name, location } = values;
 
-    let message = `Name: ${name}\nLocation: ${selectedLocation}, ${location}\n\nItems:\n`;
+    let message = `שם: ${name}\nמיקום: ${selectedLocation}, ${location}\n\nפריטים:\n`;
     message += "------------------------------------------\n";
 
     cartItems.forEach((item) => {
-      message += `Product: ${item.name}\n`;
-      message += `Quantity: ${item.quantity}\n`;
-      message += `Price: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
+      message += `מוצר: ${item.name}\n`;
+      message += `כמות: ${item.quantity}\n`;
+      message += `מחיר: ₪${item.price.toFixed(2)} * ${item.quantity} = ${(
         item.quantity * item.price
       ).toFixed(2)}\n`;
       message += "------------------------------------------\n";
     });
 
-    message += `Total: ₪${totalAll.toFixed(2)}`;
+    message += `סך הכל: ₪${totalAll.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972532837623".replace(/\D/g, ""); // Ensure phone number is in the correct format
