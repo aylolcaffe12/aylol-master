@@ -15,7 +15,7 @@ import {
 } from "../../store/minicart.selector";
 import "./cart.styles.scss";
 import Button from "../../components/button/button.component";
-import { toast, ToastContainer, Flip } from "react-toastify";
+import { toast, ToastContainer, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const CartComponent = () => {
@@ -181,7 +181,7 @@ const CartComponent = () => {
         draggable: true,
         progress: undefined,
         theme: "dark",
-        transition: Flip,
+        transition: Slide,
       });
       return;
     }
@@ -196,7 +196,7 @@ const CartComponent = () => {
         draggable: true,
         progress: undefined,
         theme: "dark",
-        transition: Flip,
+        transition: Slide,
       });
       return;
     }
@@ -210,7 +210,7 @@ const CartComponent = () => {
       draggable: true,
       progress: undefined,
       theme: "dark",
-      transition: Flip,
+      transition: Slide,
     });
     sendWhatsAppMessage();
   };
