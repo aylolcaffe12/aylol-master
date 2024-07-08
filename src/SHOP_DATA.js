@@ -146,6 +146,9 @@ import gifts1600 from "./assets/pictures/1600.jpg";
 import gifts1601 from "./assets/pictures/1601.jpg";
 import gifts1602 from "./assets/pictures/1602.jpg";
 import gifts1603 from "./assets/pictures/1603.jpg";
+import gifts1604 from "./assets/pictures/1604.jpg";
+import gifts1605 from "./assets/pictures/1605.jpg";
+
 export const SHOP_DATA = [
   {
     // skin care
@@ -1379,6 +1382,20 @@ export const SHOP_DATA = [
         id: 1603,
         name: "Gift 4",
         imageUrl: gifts1603,
+        price: null,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 1604,
+        name: "Gift 5",
+        imageUrl: gifts1604,
+        price: null,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 1605,
+        name: "Gift 6",
+        imageUrl: gifts1605,
         price: null,
         price2: null,
         disprice: 0,
