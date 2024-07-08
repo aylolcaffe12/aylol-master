@@ -120,6 +120,11 @@ const CartComponent = () => {
   //   window.open(whatsappLink, "_blank");
   // };
 
+  const locationPrice = useMemo(
+    () => locations.find((elem) => elem.label === selectedLocation)?.price ?? 0,
+    [selectedLocation]
+  );
+
   const sendWhatsAppMessage = () => {
     const { name, location } = values;
 
@@ -135,7 +140,9 @@ const CartComponent = () => {
       message += "------------------------------------------\n";
     });
 
-    message += `סך הכל: ₪${totalAll.toFixed(2)}`;
+    message += `סך הכל: ₪${bagTotalPrice.toFixed(2)} + ₪${locationPrice.toFixed(
+      2
+    )} = ₪${totalAll.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(message);
     const phoneNumber = "+972532837623".replace(/\D/g, ""); // Ensure phone number is in the correct format
@@ -155,11 +162,6 @@ const CartComponent = () => {
     { label: "locations.tira", price: 100 },
     { label: "locations.kiryat_shmona", price: 80 },
   ];
-
-  const locationPrice = useMemo(
-    () => locations.find((elem) => elem.label === selectedLocation)?.price ?? 0,
-    [selectedLocation]
-  );
 
   const handleChange2 = (event) => {
     setSelectedLocation(event.target.value);
