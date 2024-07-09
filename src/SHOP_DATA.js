@@ -97,6 +97,13 @@ import makeup356 from "./assets/pictures/356.jpg";
 import makeup357 from "./assets/pictures/357.jpg";
 import makeup358 from "./assets/pictures/358.jpg";
 import makeup359 from "./assets/pictures/359.jpg";
+import makeup360 from "./assets/pictures/360.jpg";
+import makeup361 from "./assets/pictures/361.jpg";
+import makeup362 from "./assets/pictures/362.jpg";
+import makeup363 from "./assets/pictures/363.jpg";
+import makeup364 from "./assets/pictures/364.jpg";
+
+
 
 import perfume600 from "./assets/pictures/600.jpg";
 import perfume601 from "./assets/pictures/601.jpg";
@@ -523,7 +530,7 @@ export const SHOP_DATA = [
         name: "Magic Touch Concealer Anastasia",
         imageUrl: makeup302,
         des: "",
-        price: 160,
+        price: 150,
         price2: null,
         disprice: 0,
       },
@@ -1039,6 +1046,47 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
+      {
+        id: 360,
+        name: "GOLDEN ROSE EYEBROW SHAPER WAX - 45ML |",
+        imageUrl: makeup360,
+        des: "",
+        price: 80,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 361,
+        name: "Golden rose Brow & Lash mascara",
+        imageUrl: makeup361,
+        des: "",
+        price: 50,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 362,
+        name: "Golden Rose - BEAUTY BLENDER SET",
+        imageUrl: makeup362,
+        des: "",
+        price: 50,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 363,
+        name: "PAESE - BB Cream with Hyaluronic Acid - 30 ml natural beige",
+        imageUrl: makeup363,
+        des: "",
+        price: 75,
+        price2: null,
+        disprice: 0,
+      },   {
+        id: 364,
+        name: "Dermacol Make-up Sponge  Powder pink",
+        imageUrl: makeup364,
+        des: "",
+        price: 35,
+        price2: null,
+        disprice: 0,
+      },
     ],
   },
   {
@@ -1083,21 +1131,21 @@ export const SHOP_DATA = [
         id: 1005,
         name: "⁠olaplex bond maintenance shampoo no4 100ml",
         imageUrl: haircare1005,
-        price: 100,
+        price: 120,
         disprice: 0,
       },
       {
         id: 1006,
         name: "OLAPLEX STRONG START HAIR KIT mini size 30 ml ",
         imageUrl: haircare1006,
-        price: 60,
+        price: 150,
         disprice: 0,
       },
       {
         id: 1007,
         name: "AGE DEFYING ARAGAN HAIR CARE CREAM",
         imageUrl: haircare1007,
-        price: 50,
+        price: 70,
         disprice: 0,
       },
     ],
