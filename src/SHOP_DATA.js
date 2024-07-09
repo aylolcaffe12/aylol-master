@@ -39,6 +39,9 @@ import skincare38 from "./assets/pictures/38.jpg";
 import skincare39 from "./assets/pictures/39.jpg";
 import skincare40 from "./assets/pictures/40.jpg";
 import skincare41 from "./assets/pictures/41.jpg";
+import skincare42 from "./assets/pictures/42.jpg";
+import skincare43 from "./assets/pictures/43.jpg";
+
 
 
 import makeup300 from "./assets/pictures/300.jpg";
@@ -523,7 +526,8 @@ export const SHOP_DATA = [
         price: 30,
         price2: 0,
         disprice: 0,
-      },   {
+      },   
+      {
         id: 41,
         name: "INTENSIVE VOLCANO ASH CHARCOAL MASK",
         imageUrl: skincare41,
@@ -532,7 +536,24 @@ export const SHOP_DATA = [
         price2: 0,
         disprice: 0,
       },
-   
+      {
+        id: 42,
+        name: "Yubari King Gold Wrinkle Eraser",
+        imageUrl: skincare42,
+        des: "",
+        price: 250,
+        price2: 0,
+        disprice: 0,
+      },
+      {
+        id: 43,
+        name: "TOURMALINE BX SKIN RELAXOR CONCENTRATE SERUM",
+        imageUrl: skincare43,
+        des: "",
+        price: 250,
+        price2: 0,
+        disprice: 0,
+      },
     ],
   },
   {
