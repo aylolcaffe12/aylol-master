@@ -1064,10 +1064,10 @@ export const SHOP_DATA = [
       },
       {
         id: 356,
-        name: "elf cream glide lip liner truth or bare",
+        name: "Cream BB Petit",
         imageUrl: makeup356,
         des: "",
-        price: 60,
+        price: 70,
         price2: null,
         disprice: 0,
       },
