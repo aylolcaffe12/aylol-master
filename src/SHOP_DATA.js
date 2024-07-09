@@ -36,6 +36,10 @@ import skincare35 from "./assets/pictures/35.jpg";
 import skincare36 from "./assets/pictures/36.jpg";
 import skincare37 from "./assets/pictures/37.jpg";
 import skincare38 from "./assets/pictures/38.jpg";
+import skincare39 from "./assets/pictures/39.jpg";
+import skincare40 from "./assets/pictures/40.jpg";
+import skincare41 from "./assets/pictures/41.jpg";
+
 
 import makeup300 from "./assets/pictures/300.jpg";
 import makeup301 from "./assets/pictures/301.jpg";
@@ -502,6 +506,33 @@ export const SHOP_DATA = [
         price2: 0,
         disprice: 0,
       },
+      {
+        id: 39,
+        name: "",
+        imageUrl: skincare39,
+        des: "GENTLE FOAMING MOUSSE CLEANSER 150ml",
+        price: 100,
+        price2: 0,
+        disprice: 0,
+      },
+      {
+        id: 40,
+        name: "tresor rare golden mask",
+        imageUrl: skincare40,
+        des: "",
+        price: 30,
+        price2: 0,
+        disprice: 0,
+      },   {
+        id: 41,
+        name: "INTENSIVE VOLCANO ASH CHARCOAL MASK",
+        imageUrl: skincare41,
+        des: "",
+        price: 30,
+        price2: 0,
+        disprice: 0,
+      },
+   
     ],
   },
   {
