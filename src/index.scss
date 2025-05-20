@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, rgba(255, 204, 249, 0.8) 0%, rgba(255, 153, 200, 0.8) 50%, rgba(243, 231, 233, 0.8) 100%), url('https://unsplash.com/photos/XaZY7YN4rU4/download?force=true');
+  background: linear-gradient(135deg, rgba(37, 150, 190, 0.8) 0%, rgba(37, 150, 190, 0.8) 50%, rgba(37, 150, 190, 0.8) 100%), url('https://unsplash.com/photos/XaZY7YN4rU4/download?force=true');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -142,7 +142,7 @@ h1 {
 
   // Firefox fallback
   @supports (scrollbar-color: auto) {
-    scrollbar-color: #b6b6b6 transparent; // stylelint-disable-line
+    scrollbar-color: #b6b6b69a transparent; // stylelint-disable-line
     scrollbar-width: auto; // stylelint-disable-line
   }
 

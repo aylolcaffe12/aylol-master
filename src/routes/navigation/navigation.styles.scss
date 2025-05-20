@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: #fface9;
+    background-color: #2596be;
     padding: 4px;
 
     animation: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s;
@@ -61,7 +61,7 @@
     }
 
     &:hover {
-      background-color: #eeaee1;;
+      background-color: #2596be;;
     }
     img {
       width: 25px;
@@ -92,7 +92,7 @@
       content: "";
       font-size: 16px;
       font-weight: bold;
-      color: #ff69b4; /* Hot pink text */
+      color: #2596be; /* Hot pink text */
       margin-left: 10px;
     }
   }
@@ -108,11 +108,11 @@
       padding: 10px 15px;
       margin-right: 5px;
       cursor: pointer;
-      color: #ff69b4; /* Hot pink text */
+      color: #2596be; /* Hot pink text */
       font-weight: bold;
 
       &:hover {
-        background-color: #ff99c8; /* Lighter pink hover */
+        background-color: #2596be; /* Lighter pink hover */
         color: #fff; /* White text on hover */
       }
     }
