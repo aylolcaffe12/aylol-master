@@ -34,24 +34,8 @@ const categories = [
     imageUrl: makeup,
     route: "shop/makeups",
   },
-  {
-    id: 5,
-    titleId: "perfume_musk",
-    imageUrl: perfume,
-    route: "shop/perfumes",
-  },
-  {
-    id: 6,
-    titleId: "lenses",
-    imageUrl: lenses,
-    route: "shop/lenses",
-  },
-  {
-    id: 7,
-    titleId: "gifts",
-    imageUrl: gifts,
-    route: "shop/gifts",
-  },
+
+
 ];
 
 const CategoryList = () => {
