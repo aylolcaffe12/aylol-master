@@ -1,25 +1,16 @@
-import skincare1 from "./assets/pictures/1.jpg";
+import shisha1 from "./assets/pictures/1.jpg";
 
 
 
-import makeup300 from "./assets/pictures/300.jpg";
+import food1 from "./assets/pictures/2.jpg";
 
 
 
-import perfume600 from "./assets/pictures/600.jpg";
+import sweets1 from "./assets/pictures/3.jpg";
 
 
-import bodycare800 from "./assets/pictures/800.jpg";
+import drink1 from "./assets/pictures/4.jpg";
 
-
-import haircare1000 from "./assets/pictures/1000.jpg";
-
-
-import lenses1300 from "./assets/pictures/1300.jpg";
-
-
-
-import gifts1600 from "./assets/pictures/1600.jpg";
 
 
 export const SHOP_DATA = [
@@ -29,9 +20,9 @@ export const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "𝐸𝑀𝐵𝑅𝑌𝑂𝐿𝐼𝑆𝑆𝐸, 𝐿𝐴𝐼𝑇 𝐶𝑅𝐸𝑀𝐸 𝐶𝑂𝑁𝐶𝐸𝑁𝑇𝑅𝐸",
-        imageUrl: skincare1,
-        price: 120,
+        name: "נרגילה רוסית",
+        imageUrl: shisha1,
+        price: 70,
         price2: null,
         disprice: 0,
       },
@@ -45,10 +36,10 @@ export const SHOP_DATA = [
     items: [
       {
         id: 300,
-        name: "Charlotte Tilbury Beautiful Skin Radiant Concealer",
-        imageUrl: makeup300,
+        name: "קריפ",
+        imageUrl: sweets1,
         des: "",
-        price: 140,
+        price: 40,
         price2: null,
         disprice: 0,
       },
@@ -63,29 +54,14 @@ export const SHOP_DATA = [
     items: [
       {
         id: 1000,
-        name: "Hair wax stick",
-        imageUrl: haircare1000,
-        price: 40,
+        name: "קוקה קולה",
+        imageUrl: drink1,
+        price: 15,
         disprice: 0,
       },
     ],
   },
 
-
-
-  {
-    /////////
-    title: "perfumes",
-    items: [
-      {
-        id: 600,
-        name: "Musk collection tropical fruits by gulf orchid",
-        imageUrl: perfume600,
-        price: 100,
-        disprice: 0,
-      },
-    ],
-  },
 
 
 
@@ -94,10 +70,9 @@ export const SHOP_DATA = [
     items: [
       {
         id: 800,
-        name: "SOL DE JANEIRO Brazilian Crush Cheirosa '62 Sol de Janeiro 90ml",
-        imageUrl: bodycare800,
-        price: 160,
-        price2: 220,
+        name: "ברגר",
+        imageUrl: food1,
+        price: 80,
         disprice: 0,
       },
     ],
@@ -105,39 +80,8 @@ export const SHOP_DATA = [
 
 
 
-  {
-    // lenses care
-    title: "lenses",
-    items: [
-      {
-        id: 1300,
-        name: "lime green lenses",
-        imageUrl: lenses1300,
-        price: 150,
-        price2: 0,
-        disprice: 0,
-      },
-    ],
-  },
 
 
 
-  {
-    // gifts care
-    title: "gifts",
-    items: [
-      {
-        id: 1600,
-        name: "Gift 1",
-        imageUrl: gifts1600,
-        price: null,
-        price2: null,
-        disprice: 0,
-      },
-  
 
-
-    
-    ]
-  }
 ];
