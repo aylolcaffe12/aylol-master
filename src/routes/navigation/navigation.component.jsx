@@ -53,7 +53,7 @@ const Navigation = ({ switchLanguage }) => {
 
           <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
             <a
-              href="https://www.instagram.com/mis.floora"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

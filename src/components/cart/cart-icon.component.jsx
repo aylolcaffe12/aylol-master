@@ -16,12 +16,7 @@ const CartIcon = () => {
     dispatch(toggleMinicart(!openMinicart));
   }, [openMinicart]); //eslint-disable-line react-hooks/exhaustive-deps
 
-  return (
-    <button type='button' className='cart-icon-container' onClick={handleMinicartToggle}>
-      <img className='shopping-icon' src={bagIcon} alt='' />
-      <span className='item-count'>{bagCount}</span>
-    </button>
-  );
+
 }
 
 export default CartIcon;
