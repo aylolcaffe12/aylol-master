@@ -32,9 +32,7 @@ const ProductCard = memo(({ product }) => {
             <div className="price1">₪{price?.toFixed(2)}</div>
             {price2 && <div className="price2">₪{price2?.toFixed(2)}</div>}
           </p>
-          <div onClick={addProductToCart} className="add-to-cart">
-            <img src={addtocartimage} />
-          </div>
+         
         </div>
       </div>
     </div>
