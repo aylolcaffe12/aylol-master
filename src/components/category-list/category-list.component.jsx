@@ -3,6 +3,7 @@ import "./categories.styles.scss";
 import SpecialBreakFast from "./mainPic/SpecialBreakFast.jpg";
 import nqaresh from "./mainPic/nqaresh.jpg";
 import wjbet3daa from "./mainPic/wjbet3daa.jpeg";
+import slatat from "./mainPic/slatat.jpeg";
 
 
 const categories = [
@@ -24,32 +25,13 @@ const categories = [
     imageUrl: wjbet3daa,
     route: "shop/lunch",
   },
+  {
+    id: 4,
+    titleId: "سلطات",
+    imageUrl: slatat,
+    route: "shop/salads",
+  },
 
-  // {
-  //   id: 2,
-  //   titleId: "طابون",
-  //   imageUrl: tabon,
-  //   route: "shop/tabon",
-  // },
-  // {
-  //   id: 3,
-  //   titleId: "haircare",
-  //   imageUrl: drinks,
-  //   route: "shop/haircare",
-  // },
-  // {
-  //   id: 4,
-  //   titleId: "makeup",
-  //   imageUrl: sweets,
-  //   route: "shop/makeups",
-  // },
-
-  // {
-  //   id: 5,
-  //   titleId: "lololololo",
-  //   imageUrl: sweets,
-  //   route: "shop/lololololo",
-  // },
 ];
 
 const CategoryList = () => {

@@ -45,6 +45,15 @@ import atfal from "./assets/pictures/atfal.jpeg";
 import burger100 from "./assets/pictures/burger100.jpg";
 import kbab1 from "./assets/pictures/kbab1.jpeg";
 import shnetselonem from "./assets/pictures/shnetselonem.jpeg";
+import sltaaylolya from "./assets/pictures/sltaaylolya.jpeg";
+import slta7lome from "./assets/pictures/slta7lome.jpeg";
+import sltaqaysar from "./assets/pictures/sltaqaysar.jpeg";
+import sltajrjer from "./assets/pictures/sltajrjer.jpeg";
+import slta3rbye from "./assets/pictures/slta3rbye.jpeg";
+import sltatost from "./assets/pictures/sltatost.jpeg";
+import sltatbole from "./assets/pictures/sltatbole.jpeg";
+import sltaftosh from "./assets/pictures/sltaftosh.jpeg";
+import slta7bq from "./assets/pictures/slta7bq.jpeg";
 
 
 export const SHOP_DATA = [
@@ -462,67 +471,83 @@ export const SHOP_DATA = [
           },
         ],
       }
-      
-      
     ],
   },
-  
-  
-  
-  
-  
-
-  // {
-  //   title: "makeups",
-  //   items: [
-  //     {
-  //       id: 300,
-  //       name: "קריפ",
-  //       imageUrl: sweets1,
-  //       des: "",
-  //       price: 40,
-  //       price2: null,
-  //       disprice: 0,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   title: "haircare",
-  //   items: [
-  //     {
-  //       id: 1000,
-  //       name: "קוקה קולה",
-  //       imageUrl: drink1,
-  //       price: 15,
-  //       disprice: 0,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   title: "body-lotions",
-  //   items: [
-  //     {
-  //       id: 800,
-  //       name: "برجر",
-  //       imageUrl: food1,
-  //       price: 80,
-  //       disprice: 0,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   title: "lololololo",
-  //   items: [
-  //     {
-  //       id: 1200,
-  //       name: "t3b",
-  //       imageUrl: food1,
-  //       price: 80,
-  //       disprice: 0,
-  //     },
-  //   ],
-  // },
+  {
+    title: "salads",
+    items: [
+      {
+        id: 110,
+        name: "سلطة ايلولية",
+        imageUrl: sltaaylolya,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 111,
+        name: "سلطة حلومة",
+        imageUrl: slta7lome,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 112,
+        name: "سلطة القيصر",
+        imageUrl: sltaqaysar,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 113,
+        name: "سلطة جرجير",
+        imageUrl: sltajrjer,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 114,
+        name: "سلطة عربية ",
+        imageUrl: slta3rbye,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 115,
+        name: "سلطة توست",
+        imageUrl: sltatost,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 116,
+        name: "سلطة تبولة",
+        imageUrl: sltatbole,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 117,
+        name: "سلطة فتوش",
+        imageUrl: sltaftosh,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 118,
+        name: "سلطة حبق",
+        imageUrl: slta7bq,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+    ],
+  },
 ];
