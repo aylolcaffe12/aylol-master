@@ -2,6 +2,13 @@ import tabon from "./assets/pictures/tabon.jpg";
 import sweets1 from "./assets/pictures/3.jpg";
 import ftorbrnji from "./assets/pictures/ftorbrnji.jpg";
 import ftorclasic from "./assets/pictures/ftorclasic.jpg";
+import sfe7a from "./assets/pictures/sfe7a.jpg";
+import pizza from "./assets/pictures/pizza.jpg";
+import z3tr from "./assets/pictures/z3tr.jpg";
+import mnqosheajban from "./assets/pictures/mnqosheajban.jpg";
+import fokatchaaylol from "./assets/pictures/fokatchaaylol.jpg";
+import fokatcha from "./assets/pictures/fokatcha.jpg";
+
 
 export const SHOP_DATA = [
   {
@@ -39,22 +46,55 @@ export const SHOP_DATA = [
         items: [
           {
             id: 21,
-            name: " فطور برنجي ",
-            imageUrl: ftorbrnji,
-            price: 155,
+            name: " صفيحة تركية",
+            imageUrl: sfe7a,
+            price: 35,
             price2: null,
             disprice: 0,
           },
           {
             id: 22,
-            name: "فطور كلاسيكي",
-            imageUrl: ftorclasic,
-            price: 125,
+            name: "بيتسا",
+            imageUrl: pizza,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 23,
+            name: " منقوشة زعتر ",
+            imageUrl: z3tr,
+            price: 18,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 24,
+            name: "منقوشة اجبان",
+            imageUrl: mnqosheajban,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 25,
+            name: "فوكاتشا ايلول ",
+            imageUrl: fokatchaaylol,
+            price: 30,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 26,
+            name: "فوكاتشا ",
+            imageUrl: fokatcha,
+            price: 25,
             price2: null,
             disprice: 0,
           },
         ],
       }
+      
     ],
   },
   {
