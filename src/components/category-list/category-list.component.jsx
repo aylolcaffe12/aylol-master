@@ -23,12 +23,12 @@ const categories = [
     imageUrl: nqaresh,
     route: "shop/nqaresh",
   },
-  {
-    id: 3,
-    titleId: "وجبة الغداء",
-    imageUrl: wjbet3daa,
-    route: "shop/lunch",
-  },
+  // {
+  //   id: 3,
+  //   titleId: "وجبة الغداء",
+  //   imageUrl: wjbet3daa,
+  //   route: "shop/lunch",
+  // },
   {
     id: 4,
     titleId: "سلطات",
