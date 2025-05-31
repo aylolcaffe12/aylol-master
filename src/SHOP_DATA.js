@@ -14,6 +14,16 @@ import toast from "./assets/pictures/toast.jpg";
 import l7mebndora from "./assets/pictures/l7mebndora.jpg";
 import aeje from "./assets/pictures/aeje.jpg";
 import chips from "./assets/pictures/chips.jpg";
+import arayes from "./assets/pictures/arayes.jpg";
+import khbzmthwm from "./assets/pictures/khbzmthwm.jpg";
+import natchos from "./assets/pictures/natchos.jpg";
+import smbosek from "./assets/pictures/smbosek.jpg";
+import m3jnat from "./assets/pictures/m3jnat.jpg";
+import kobe from "./assets/pictures/kobe.jpeg";
+import foqo3m7she from "./assets/pictures/foqo3m7she.jpeg";
+import jbne7lome from "./assets/pictures/jbne7lome.jpeg";
+
+
 
 export const SHOP_DATA = [
   {
@@ -159,38 +169,68 @@ export const SHOP_DATA = [
     ],
   },
   {
-    title: "food",
+    title: "nqaresh",
     items: [
       {
-        title: "sea",
-        name: "اكلات بحرية",
-        id: 100,
-        imageUrl: ftorclasic,
-        items: [
-          {
-            id: 102,
-            name: "pizza 1",
-            imageUrl: sweets1,
-            des: "",
-            price: 40,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 103,
-            name: "pizza 2",
-            imageUrl: sweets1,
-            des: "",
-            price: 40,
-            price2: null,
-            disprice: 0,
-          },
-        ],
+        id: 41,
+        name: "عرايس",
+        imageUrl: arayes,
+        price: 125,
+        price2: null,
+        disprice: 0,
       },
       {
-        id: 101,
-        name: "شو",
-        imageUrl: ftorclasic,
+        id: 42,
+        name: "خبز مثوم",
+        imageUrl: khbzmthwm,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 43,
+        name: "ناتشوز مكسيكي",
+        imageUrl: natchos,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 44,
+        name: "سمبوسك 4 قطع",
+        imageUrl: smbosek,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 45,
+        name: "معجنات 6 قطع ",
+        imageUrl: m3jnat,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 46,
+        name: "كبة 4 قطع",
+        imageUrl: kobe,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 47,
+        name: "فقع محشي 4 قطع",
+        imageUrl: foqo3m7she,
+        price: 125,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 48,
+        name: "جبنة حلومة مقلية",
+        imageUrl: jbne7lome,
         price: 125,
         price2: null,
         disprice: 0,

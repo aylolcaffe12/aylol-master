@@ -1,9 +1,7 @@
 import CategoryItem from "../category-item/category-item.component";
 import "./categories.styles.scss";
 import SpecialBreakFast from "./mainPic/SpecialBreakFast.jpg";
-import tabon from "./mainPic/tabon.jpg";
-import drinks from "./mainPic/drinks.jpg";
-import sweets from "./mainPic/sweets.jpg";
+import nqaresh from "./mainPic/nqaresh.jpg";
 
 const categories = [
   {
@@ -14,9 +12,9 @@ const categories = [
   },
   {
     id: 2,
-    titleId: "اكل",
-    imageUrl: SpecialBreakFast,
-    route: "shop/food",
+    titleId: "نقاريش",
+    imageUrl: nqaresh,
+    route: "shop/nqaresh",
   },
   {
     id: 3,
