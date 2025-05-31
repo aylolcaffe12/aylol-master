@@ -4,7 +4,11 @@ import SpecialBreakFast from "./mainPic/SpecialBreakFast.jpg";
 import nqaresh from "./mainPic/nqaresh.jpg";
 import wjbet3daa from "./mainPic/wjbet3daa.jpeg";
 import slatat from "./mainPic/slatat.jpeg";
+import t7lay from "./mainPic/t7lay.jpeg";
+import mshrobat from "./mainPic/mshrobat.jpeg";
+import aragel from "./mainPic/aragel.jpg";
 
+t7lay
 
 const categories = [
   {
@@ -30,6 +34,24 @@ const categories = [
     titleId: "سلطات",
     imageUrl: slatat,
     route: "shop/salads",
+  },
+  {
+    id: 5,
+    titleId: "تحلاي",
+    imageUrl: t7lay,
+    route: "shop/t7lay",
+  },
+  {
+    id: 6,
+    titleId: "مشروبات",
+    imageUrl: mshrobat,
+    route: "shop/mshrobat",
+  },
+  {
+    id: 7,
+    titleId: "اراجيل",
+    imageUrl: aragel,
+    route: "shop/aragel",
   },
 
 ];
