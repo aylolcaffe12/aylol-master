@@ -8,7 +8,12 @@ import z3tr from "./assets/pictures/z3tr.jpg";
 import mnqosheajban from "./assets/pictures/mnqosheajban.jpg";
 import fokatchaaylol from "./assets/pictures/fokatchaaylol.jpg";
 import fokatcha from "./assets/pictures/fokatcha.jpg";
-
+import homosl7me from "./assets/pictures/homosl7me.jpg";
+import shkshoka from "./assets/pictures/shkshoka.jpg";
+import toast from "./assets/pictures/toast.jpg";
+import l7mebndora from "./assets/pictures/l7mebndora.jpg";
+import aeje from "./assets/pictures/aeje.jpg";
+import chips from "./assets/pictures/chips.jpg";
 
 export const SHOP_DATA = [
   {
@@ -33,6 +38,62 @@ export const SHOP_DATA = [
             name: "فطور كلاسيكي",
             imageUrl: ftorclasic,
             price: 125,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
+      {
+        title: "ftormnw3",
+        name: " منوعات",
+        id: 3,
+        imageUrl: ftorbrnji,
+        items: [
+          {
+            id: 31,
+            name: " حمص مع لحمة ",
+            imageUrl: homosl7me ,
+            price: 60,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 32,
+            name: "شكشوكة",
+            imageUrl: shkshoka,
+            price: 39,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 33,
+            name: "توست",
+            imageUrl: toast,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 34,
+            name: "لحمة بندورة",
+            imageUrl: l7mebndora,
+            price: 60,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 35,
+            name: "عجة",
+            imageUrl: aeje,
+            price: 20,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 36,
+            name: "شيبس",
+            imageUrl: chips,
+            price: 20,
             price2: null,
             disprice: 0,
           },
