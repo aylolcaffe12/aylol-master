@@ -22,7 +22,7 @@ const ProductCard = memo(({ product }) => {
           src={imageUrl}
           alt={name}
           loading="lazy"
-          onClick={() => navigate(`${product.id}`)}
+          // onClick={() => navigate(`${product.id}`)}
         />
       </div>
       <div className="product-footer">

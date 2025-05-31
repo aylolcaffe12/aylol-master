@@ -1,10 +1,12 @@
-import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
-import { selectCategoriesMap, selectCategoriesIsLoading } from '../../store/category.selector';
-import ProductCard from '../../components/product-card/product-card.component';
-import SpinnerComponent from '../../components/spinner/spinner.component';
-
+import {
+  selectCategoriesMap,
+  selectCategoriesIsLoading,
+} from "../../store/category.selector";
+import ProductCard from "../../components/product-card/product-card.component";
+import SpinnerComponent from "../../components/spinner/spinner.component";
 
 const CategoryListPage = () => {
   const categoriesMap = useSelector(selectCategoriesMap);
@@ -12,35 +14,36 @@ const CategoryListPage = () => {
 
   return (
     <>
-      {
-        isLoading ? (
-          <SpinnerComponent />
-        ) : (
-          <div className='container page-container'>
-            { Object.keys(categoriesMap).map(title => {
-              return (
-                <div className='cat-wrapper' key={title}>
-                  <h2 className='cat-name'>
-                    {title}
-                    <Link className='see-link' to={title}>
-                      See all {categoriesMap[title].length} products »
-                    </Link>
-                  </h2>
-                  <div className='shop-container'>
-                    {categoriesMap[title].slice(0, 4).map((product) => {
-                        return (
-                          <ProductCard key={product.id} product={product} />
-                        )
-                    })}
-                  </div>
-                </div>
-              )
-            }) }
-          </div>
-        )
-      }
+      {isLoading ? (
+        <SpinnerComponent />
+      ) : (
+        <div className="container page-container">
+          <h2 className="cat-name">{category}</h2>
+          {/* <div className="shop-container">
+            {categoryData.map((item) => {
+              if (item.items) {
+                // It's a subcategory
+                return (
+                  <Link
+                    to={`${item.title}`}
+                    key={item.title}
+                    className="subcategory-link"
+                  >
+                    <div className="subcategory-card">
+                      <h3>{item.title}</h3>
+                    </div>
+                  </Link>
+                );
+              } else {
+                // It's a product
+                return <ProductCard key={item.id} product={item} />;
+              }
+            })}
+          </div> */}
+        </div>
+      )}
     </>
   );
-}
+};
 
 export default CategoryListPage;

@@ -1,39 +1,55 @@
 import CategoryItem from "../category-item/category-item.component";
 import "./categories.styles.scss";
-import shisha from "./mainPic/shisha.jpg";
-import food from "./mainPic/food.jpg";
+import SpecialBreakFast from "./mainPic/SpecialBreakFast.jpg";
+import tabon from "./mainPic/tabon.jpg";
 import drinks from "./mainPic/drinks.jpg";
 import sweets from "./mainPic/sweets.jpg";
-
-
 
 const categories = [
   {
     id: 1,
-    titleId: "skincare",
-    imageUrl: shisha,
-    route: "shop/skincare",
+    titleId: "وجبة الفطور ",
+    imageUrl: SpecialBreakFast,
+    route: "shop/breakfast",
   },
   {
     id: 2,
-    titleId: "bodycare",
-    imageUrl: food,
-    route: "shop/body-lotions",
+    titleId: "اكل",
+    imageUrl: SpecialBreakFast,
+    route: "shop/food",
   },
   {
     id: 3,
-    titleId: "haircare",
-    imageUrl: drinks,
-    route: "shop/haircare",
-  },
-  {
-    id: 4,
-    titleId: "makeup",
-    imageUrl: sweets,
-    route: "shop/makeups",
+    titleId: "سلطات",
+    imageUrl: SpecialBreakFast,
+    route: "shop/salads",
   },
 
+  // {
+  //   id: 2,
+  //   titleId: "طابون",
+  //   imageUrl: tabon,
+  //   route: "shop/tabon",
+  // },
+  // {
+  //   id: 3,
+  //   titleId: "haircare",
+  //   imageUrl: drinks,
+  //   route: "shop/haircare",
+  // },
+  // {
+  //   id: 4,
+  //   titleId: "makeup",
+  //   imageUrl: sweets,
+  //   route: "shop/makeups",
+  // },
 
+  // {
+  //   id: 5,
+  //   titleId: "lololololo",
+  //   imageUrl: sweets,
+  //   route: "shop/lololololo",
+  // },
 ];
 
 const CategoryList = () => {

@@ -8,19 +8,22 @@ import {
 } from "../../store/category.selector";
 import ProductCard from "../../components/product-card/product-card.component";
 import SpinnerComponent from "../../components/spinner/spinner.component";
-import SubcategoryCard from "../../components/sub-card/sub-card.component";
 
-const Category = () => {
-  const { category } = useParams();
+const SubCategoryListPage = () => {
+  const { category, subCategory } = useParams();
   const categoriesMap = useSelector(selectCategoriesMap);
   const isLoading = useSelector(selectCategoriesIsLoading);
-  const [products, setProducts] = useState(categoriesMap[category]);
 
-  useEffect(() => {
-    setProducts(categoriesMap[category]);
-  }, [category, categoriesMap]);
+  const categoryData = categoriesMap[category] || [];
 
-  console.log("products", products);
+  // Find the matching subcategory
+  const subCategoryData = categoryData.find(
+    (item) => item.title === subCategory
+  );
+
+  // If found, use its items array, otherwise empty array
+  const products = subCategoryData?.items || [];
+
   return (
     <>
       {isLoading ? (
@@ -30,19 +33,7 @@ const Category = () => {
           <div className="shop-container">
             {products &&
               products.map((item) => {
-                if (item.items) {
-                  // it's a subcategory
-                  return (
-                    <SubcategoryCard
-                      key={item.title}
-                      subcategory={item}
-                      category={category}
-                    />
-                  );
-                } else {
-                  // it's a product
-                  return <ProductCard key={item.id} product={item} />;
-                }
+                return <ProductCard key={item.id} product={item} />;
               })}
           </div>
         </div>
@@ -51,4 +42,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default SubCategoryListPage;

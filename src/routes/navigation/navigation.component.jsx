@@ -53,7 +53,7 @@ const Navigation = ({ switchLanguage }) => {
 
           <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/aylol.caffe/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,12 +63,19 @@ const Navigation = ({ switchLanguage }) => {
                 alt="icon"
               />
             </a>
-            <img
-              src={waze_icon}
-              style={{ width: "42px", height: "42px", cursor: "pointer" }}
-              alt="icon"
-            />
-            <div className="language-container">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={waze_icon}
+                style={{ width: "42px", height: "42px", cursor: "pointer" }}
+                alt="icon"
+              />
+            </a>
+
+            {/* <div className="language-container">
               <img
                 src={language}
                 alt=""
@@ -91,10 +98,10 @@ const Navigation = ({ switchLanguage }) => {
                   </div>
                 </div>
               )}
-            </div>
+            </div> */}
 
-            <CartIcon />
-            <Minicart />
+            {/* <CartIcon /> */}
+            {/* <Minicart /> */}
           </div>
 
           {/* <div className="nav-links-container">
