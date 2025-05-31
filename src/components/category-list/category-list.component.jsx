@@ -2,6 +2,8 @@ import CategoryItem from "../category-item/category-item.component";
 import "./categories.styles.scss";
 import SpecialBreakFast from "./mainPic/SpecialBreakFast.jpg";
 import nqaresh from "./mainPic/nqaresh.jpg";
+import wjbet3daa from "./mainPic/wjbet3daa.jpeg";
+
 
 const categories = [
   {
@@ -18,9 +20,9 @@ const categories = [
   },
   {
     id: 3,
-    titleId: "سلطات",
-    imageUrl: SpecialBreakFast,
-    route: "shop/salads",
+    titleId: "وجبة الغداء",
+    imageUrl: wjbet3daa,
+    route: "shop/lunch",
   },
 
   // {

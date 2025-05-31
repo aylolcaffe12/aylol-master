@@ -1,5 +1,4 @@
 import tabon from "./assets/pictures/tabon.jpg";
-import sweets1 from "./assets/pictures/3.jpg";
 import ftorbrnji from "./assets/pictures/ftorbrnji.jpg";
 import ftorclasic from "./assets/pictures/ftorclasic.jpg";
 import sfe7a from "./assets/pictures/sfe7a.jpg";
@@ -22,7 +21,30 @@ import m3jnat from "./assets/pictures/m3jnat.jpg";
 import kobe from "./assets/pictures/kobe.jpeg";
 import foqo3m7she from "./assets/pictures/foqo3m7she.jpeg";
 import jbne7lome from "./assets/pictures/jbne7lome.jpeg";
-
+import b7reat from "./assets/pictures/b7reat.jpg";
+import chrimps from "./assets/pictures/chrimps.jpeg";
+import klamare from "./assets/pictures/klamare.jpeg";
+import mshakal from "./assets/pictures/mshakal.jpeg";
+import slamon from "./assets/pictures/slamon.jpeg";
+import antrekot from "./assets/pictures/antrekot.jpeg";
+import sdrjaj1 from "./assets/pictures/sdrjaj1.jpeg";
+import sdrjaj2 from "./assets/pictures/sdrjaj2.jpeg";
+import kbab from "./assets/pictures/kbab.jpeg";
+import shnetsel from "./assets/pictures/shnetsel.jpeg";
+import al5fef from "./assets/pictures/al5fef.jpeg";
+import tortillashnitzel from "./assets/pictures/tortillashnitzel.jpg";
+import tortillajaj1 from "./assets/pictures/tortillajaj1.jpg";
+import tortillajaj2 from "./assets/pictures/tortillajaj2.jpg";
+import tortillakbab from "./assets/pictures/tortillakbab.jpg";
+import burger200 from "./assets/pictures/burger200.jpg";
+import italiano from "./assets/pictures/italiano.jpeg";
+import rviolebtata from "./assets/pictures/rviolebtata.jpeg";
+import rviolejbne from "./assets/pictures/rviolejbne.jpeg";
+import fotoshine from "./assets/pictures/fotoshine.jpeg";
+import atfal from "./assets/pictures/atfal.jpeg";
+import burger100 from "./assets/pictures/burger100.jpg";
+import kbab1 from "./assets/pictures/kbab1.jpeg";
+import shnetselonem from "./assets/pictures/shnetselonem.jpeg";
 
 
 export const SHOP_DATA = [
@@ -236,21 +258,219 @@ export const SHOP_DATA = [
         disprice: 0,
       },
     ],
-  },
-  
+  }, 
   {
-    title: "salads",
+    title: "lunch",
     items: [
       {
-        id: 112,
-        title: "pizza",
-        name: "بيتسا",
-
-        imageUrl: ftorbrnji,
-        items: [],
+        title: "seafood",
+        name: "بحريات",
+        id: 5,
+        imageUrl: b7reat,
+        items: [
+          {
+            id: 51,
+            name: " شريمبس ",
+            imageUrl: chrimps,
+            price: 88,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 52,
+            name: " كلماري ",
+            imageUrl: klamare,
+            price: 85,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 53,
+            name: " مشكل ",
+            imageUrl: mshakal,
+            price: 85,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 54,
+            name: " سلمون ",
+            imageUrl: slamon,
+            price: 90,
+            price2: null,
+            disprice: 0,
+          },
+        ],
       },
+      {
+        title: "mainluch",
+        name: " طبق رئيسي ",
+        id: 6,
+        imageUrl: ftorbrnji,
+        items: [
+          {
+            id: 61,
+            name: " انتريكوت ",
+            imageUrl: antrekot ,
+            price: 110,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 62,
+            name: "صدر دجاج مشوي",
+            imageUrl: sdrjaj1,
+            price: 65,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 63,
+            name: "صدر دجاج بالكريما والفقع والجبنة",
+            imageUrl: sdrjaj2,
+            price: 68,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 64,
+            name: "كباب",
+            imageUrl: kbab,
+            price: 69,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 65,
+            name: "شنيتسل",
+            imageUrl: shnetsel,
+            price: 65,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
+      {
+        title: "3l5fef",
+        name: "عالخفيف",
+        id: 7,
+        imageUrl: al5fef,
+        items: [
+          {
+            id: 71,
+            name: " تورتيلا شنيتسل",
+            imageUrl: tortillashnitzel,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 72,
+            name: "تورتيلا صدر دجاج مقرمش",
+            imageUrl: tortillajaj1,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 73,
+            name: "تورتيلا صدر دجاج مشوي ",
+            imageUrl: tortillajaj2,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 74,
+            name: "تورتيلا كباب بالطابون",
+            imageUrl: tortillakbab,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 75,
+            name: "برجر 200 غرام ",
+            imageUrl: burger200,
+            price: 50,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
+      {
+        title: "italiano",
+        name: "ايطاليانو",
+        id: 8,
+        imageUrl: italiano,
+        items: [
+          {
+            id: 81,
+            name: " رفيولي بطاطا",
+            imageUrl: rviolebtata,
+            price: 59,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 72,
+            name: "رفيولي جبنة",
+            imageUrl: rviolejbne,
+            price: 59,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 73,
+            name: "فوتوشيني ",
+            imageUrl: fotoshine,
+            price: 59,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
+      {
+        title: "atfal",
+        name: "اطفال",
+        id: 9,
+        imageUrl: atfal,
+        items: [
+          {
+            id: 91,
+            name: " برجر 100 غرام",
+            imageUrl: burger100,
+            price: 28,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 92,
+            name: "كباب",
+            imageUrl: kbab1,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 93,
+            name: "شنيتسلونيم ",
+            imageUrl: shnetselonem,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      }
+      
+      
     ],
   },
+  
+  
+  
+  
+  
 
   // {
   //   title: "makeups",
