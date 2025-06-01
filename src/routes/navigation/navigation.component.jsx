@@ -70,6 +70,7 @@ const Navigation = ({ switchLanguage }) => {
             >
               <img
                 src={waze_icon}
+                href=" https://waze.com/ul/hsvc4dk4dm "
                 style={{ width: "42px", height: "42px", cursor: "pointer" }}
                 alt="icon"
               />

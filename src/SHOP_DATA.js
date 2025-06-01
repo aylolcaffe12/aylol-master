@@ -95,6 +95,16 @@ import kasata from "./assets/pictures/kasata.jpg";
 import begla from "./assets/pictures/begla.jpg";
 import fostoqlemon from "./assets/pictures/fostoqlemon.jpeg";
 import sofle from "./assets/pictures/sofle.jpg";
+import hfo5 from "./assets/pictures/hfo5.jpeg";
+import neskafe from "./assets/pictures/neskafe.jpeg";
+import espreso from "./assets/pictures/espreso.jpeg";
+import amrecano from "./assets/pictures/amrecano.jpeg";
+import mkyato from "./assets/pictures/mkyato.jpeg";
+import shokosa5n from "./assets/pictures/shokosa5n.jpeg";
+import renbo from "./assets/pictures/renbo.jpg";
+import breshek from "./assets/pictures/breshek.jpg";
+import argele from "./assets/pictures/argele.jpeg";
+
 
 export const SHOP_DATA = [
   {
@@ -734,6 +744,22 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
+          {
+            id: 21,
+            name: "  rainbow aylol",
+            imageUrl: renbo,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+                    {
+            id: 21,
+            name: "  breshake aylo",
+            imageUrl: breshek,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
         ],
       },
       {
@@ -808,49 +834,49 @@ export const SHOP_DATA = [
         items: [
           {
             id: 21,
-            name: " صفيحة تركية",
-            imageUrl: sfe7a,
-            price: 35,
+            name: "  هفوخ",
+            imageUrl: hfo5,
+            price: 15,
             price2: null,
             disprice: 0,
           },
           {
             id: 22,
-            name: "بيتسا",
-            imageUrl: pizza,
-            price: 45,
+            name: "نسكافي",
+            imageUrl: neskafe,
+            price: 15,
             price2: null,
             disprice: 0,
           },
           {
             id: 23,
-            name: " منقوشة زعتر ",
-            imageUrl: z3tr,
-            price: 18,
+            name: " اسبرسو  ",
+            imageUrl: espreso,
+            price: 8,
             price2: null,
             disprice: 0,
           },
           {
             id: 24,
-            name: "منقوشة اجبان",
-            imageUrl: mnqosheajban,
-            price: 25,
+            name: "امريكانو ",
+            imageUrl: amrecano,
+            price: 10,
             price2: null,
             disprice: 0,
           },
           {
             id: 25,
-            name: "فوكاتشا ايلول ",
-            imageUrl: fokatchaaylol,
-            price: 30,
+            name: "مكياتو  ",
+            imageUrl: mkyato,
+            price: 10,
             price2: null,
             disprice: 0,
           },
           {
             id: 26,
-            name: "فوكاتشا ",
-            imageUrl: fokatcha,
-            price: 25,
+            name: "شوكو ",
+            imageUrl: shokosa5n,
+            price: 15,
             price2: null,
             disprice: 0,
           },
@@ -1007,4 +1033,50 @@ export const SHOP_DATA = [
       },
     ],
   },
+  {
+    title: "aragel",
+    items: [
+      {
+        id: 110,
+        name: " تفاحتين",
+        imageUrl: argele,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 111,
+        name: " نخلة",
+        imageUrl: argele,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 112,
+        name: "خلطة المحل ",
+        imageUrl: argele,
+        price: 60,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 113,
+        name: "love 66 ",
+        imageUrl: argele,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 114,
+        name: "لمون نعنع   ",
+        imageUrl: argele,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+    ],
+  },
+  
 ];
