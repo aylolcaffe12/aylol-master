@@ -8,7 +8,6 @@ import t7lay from "./mainPic/t7lay.jpeg";
 import mshrobat from "./mainPic/mshrobat.jpeg";
 import aragel from "./mainPic/aragel.jpg";
 
-t7lay
 
 const categories = [
   {

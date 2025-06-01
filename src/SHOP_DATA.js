@@ -79,8 +79,22 @@ import tostdjaj from "./assets/pictures/tostdjaj.jpeg";
 import chipschider from "./assets/pictures/chipschider.jpeg";
 import aserbortoqal from "./assets/pictures/aserbortoqal.jpeg";
 import ebreq from "./assets/pictures/ebreq.jpeg";
-
-
+import fshfesh from "./assets/pictures/fshfesh.jpeg";
+import fsfesh1 from "./assets/pictures/fsfesh1.jpeg";
+import bankek from "./assets/pictures/bankek.jpeg";
+import bankek1 from "./assets/pictures/bankek1.jpeg";
+import bafel from "./assets/pictures/bafel.jpeg";
+import kreb from "./assets/pictures/kreb.jpeg";
+import snikers from "./assets/pictures/snikers.jpg";
+import fostoqalfredo from "./assets/pictures/fostoqalfredo.jpg";
+import orio1 from "./assets/pictures/orio1.jpg";
+import blobery from "./assets/pictures/blobery.jpg";
+import aogahama from "./assets/pictures/aogahama.jpg";
+import jbnem5boze from "./assets/pictures/jbnem5boze.jpg";
+import kasata from "./assets/pictures/kasata.jpg";
+import begla from "./assets/pictures/begla.jpg";
+import fostoqlemon from "./assets/pictures/fostoqlemon.jpeg";
+import sofle from "./assets/pictures/sofle.jpg";
 
 export const SHOP_DATA = [
   {
@@ -584,83 +598,6 @@ export const SHOP_DATA = [
     ],
   },
   {
-    title: "t7lay",
-    items: [
-      {
-        id: 120,
-        name: "سلطة ايلولية",
-        imageUrl: sltaaylolya,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 121,
-        name: "سلطة حلومة",
-        imageUrl: slta7lome,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 122,
-        name: "سلطة القيصر",
-        imageUrl: sltaqaysar,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 123,
-        name: "سلطة جرجير",
-        imageUrl: sltajrjer,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 124,
-        name: "سلطة عربية ",
-        imageUrl: slta3rbye,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 125,
-        name: "سلطة توست",
-        imageUrl: sltatost,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 126,
-        name: "سلطة تبولة",
-        imageUrl: sltatbole,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 127,
-        name: "سلطة فتوش",
-        imageUrl: sltaftosh,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-      {
-        id: 128,
-        name: "سلطة حبق",
-        imageUrl: slta7bq,
-        price: 125,
-        price2: null,
-        disprice: 0,
-      },
-    ],
-  },
-   {
     title: "mshrobat",
     items: [
       {
@@ -920,6 +857,154 @@ export const SHOP_DATA = [
         ],
       },
       
+    ],
+  },
+  {
+    title: "t7lay",
+    items: [
+      {
+        title: "m5bozat",
+        name: " مخبوزات",
+        id: 180,
+        imageUrl: mshrobattaqa,
+        items: [
+          {
+            name: " فشايش كبير",
+            imageUrl: fshfesh,
+            price: 45,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 182,
+            name: "فشافيش صغير ",
+            imageUrl: fsfesh1,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 183,
+            name: " ميني بانكيك ( 3 قطع ) ",
+            imageUrl: bankek,
+            price: 26,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 184,
+            name: "بانكيك ( 10 قطع )  ",
+            imageUrl: bankek1,
+            price: 36,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 185,
+            name: " بافل ",
+            imageUrl: bafel,
+            price: 39,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 186,
+            name: " كريب",
+            imageUrl: kreb,
+            price: 30,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
+      {
+        title: "aogot",
+        name: "  עוגות",
+        id: 190,
+        imageUrl: ftorbrnji,
+        items: [
+          {
+            id: 191,
+            name: "سنكرز",
+            imageUrl: snikers ,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 191,
+            name: "فستق الفريدو",
+            imageUrl: fostoqalfredo,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 192,
+            name: "اوريو",
+            imageUrl: orio1,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 193,
+            name: " بلوبيري",
+            imageUrl: blobery,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 194,
+            name: " עוגה חמה ",
+            imageUrl: aogahama,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 195,
+            name: "جبنة مخبوزة",
+            imageUrl: jbnem5boze ,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 196,
+            name: "كاساتا",
+            imageUrl: kasata,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 197,
+            name: "بيجلا",
+            imageUrl: begla,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 198,
+            name: " لمون وفستق",
+            imageUrl: fostoqlemon,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 199,
+            name: " سوفليه ",
+            imageUrl: sofle,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
+        ],
+      },
     ],
   },
 ];
