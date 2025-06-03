@@ -18,7 +18,7 @@ const categories = [
   },
   {
     id: 2,
-    titleId: "نقاريش",
+    titleId: "مقبلات",
     imageUrl: nqaresh,
     route: "shop/nqaresh",
   },
