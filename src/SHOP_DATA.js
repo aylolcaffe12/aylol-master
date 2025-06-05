@@ -104,19 +104,18 @@ import shokosa5n from "./assets/pictures/shokosa5n.jpeg";
 import renbo from "./assets/pictures/renbo.jpg";
 import breshek from "./assets/pictures/breshek.jpg";
 import argele from "./assets/pictures/argele.jpeg";
+import tostjebne from "./assets/pictures/tostjebne.jpeg";
+import bashka from "./assets/pictures/bashka.jpeg";
+import rosklmare from "./assets/pictures/rosklmare.jpg";
+import nodels from "./assets/pictures/nodels.jpeg";
 
 
 export const SHOP_DATA = [
+  // ftor
   {
-    title: "breakfast",
+    title : "breakfast",
     items: [
       {
-        title: "specialbreakfast",
-        name: "فطور سبشل",
-        id: 1,
-        imageUrl: ftorbrnji,
-        items: [
-          {
             id: 11,
             name: "فطور برنجي ( 7 مقبلات-اجبان-2عجة-منقوشة زعتر-سلطة عربية- 2مشروب )",
             imageUrl: ftorbrnji,
@@ -132,14 +131,6 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-        ],
-      },
-      {
-        title: "ftormnw3",
-        name: " منوعات",
-        id: 3,
-        imageUrl: ftorbrnji,
-        items: [
           {
             id: 31,
             name: " حمص مع لحمة ",
@@ -196,15 +187,7 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-        ],
-      },
-      {
-        title: "tabon",
-        name: "طابون",
-        id: 2,
-        imageUrl: tabon,
-        items: [
-          {
+{
             id: 21,
             name: " صفيحة تركية",
             imageUrl: sfe7a,
@@ -252,10 +235,158 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-        ],
-      }
-    ],
+    ]
   },
+  // {
+  //   title: "breakfast",
+  //   items: [
+  //     {
+  //       title: "specialbreakfast",
+  //       name: "فطور سبشل",
+  //       id: 1,
+  //       imageUrl: ftorbrnji,
+  //       items: [
+  //         {
+  //           id: 11,
+  //           name: "فطور برنجي ( 7 مقبلات-اجبان-2عجة-منقوشة زعتر-سلطة عربية- 2مشروب )",
+  //           imageUrl: ftorbrnji,
+  //           price: 155,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 12,
+  //           name: " فطور كلاسيكي ( 7 مقبلات - 2 عجة - سلطة عربية - 2 مشروب )",
+  //           imageUrl: ftorclasic,
+  //           price: 125,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "ftormnw3",
+  //       name: " منوعات",
+  //       id: 3,
+  //       imageUrl: ftorbrnji,
+  //       items: [
+  //         {
+  //           id: 31,
+  //           name: " حمص مع لحمة ",
+  //           imageUrl: homosl7me ,
+  //           price: 60,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 32,
+  //           name: "شكشوكة",
+  //           imageUrl: shkshoka,
+  //           price: 35,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 33,
+  //           name: "توست",
+  //           imageUrl: toast,
+  //           price: 40,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 34,
+  //           name: "لحمة بندورة",
+  //           imageUrl: l7mebndora,
+  //           price: 60,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 35,
+  //           name: "عجة",
+  //           imageUrl: aeje,
+  //           price: 20,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 36,
+  //           name: "شيبس",
+  //           imageUrl: chips,
+  //           price: 20,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //          {
+  //           id: 37,
+  //           name: "  توست دجاج  ",
+  //           imageUrl: tostdjaj ,
+  //           price: 55,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "tabon",
+  //       name: "طابون",
+  //       id: 2,
+  //       imageUrl: tabon,
+  //       items: [
+  //         {
+  //           id: 21,
+  //           name: " صفيحة تركية",
+  //           imageUrl: sfe7a,
+  //           price: 35,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 22,
+  //           name: "بيتسا",
+  //           imageUrl: pizza,
+  //           price: 45,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 23,
+  //           name: " منقوشة زعتر ",
+  //           imageUrl: z3tr,
+  //           price: 18,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 24,
+  //           name: "منقوشة اجبان",
+  //           imageUrl: mnqosheajban,
+  //           price: 25,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 25,
+  //           name: "فوكاتشا ايلول ",
+  //           imageUrl: fokatchaaylol,
+  //           price: 30,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //         {
+  //           id: 26,
+  //           name: "فوكاتشا ",
+  //           imageUrl: fokatcha,
+  //           price: 25,
+  //           price2: null,
+  //           disprice: 0,
+  //         },
+  //       ],
+  //     }
+  //   ],
+  // },
+  // moqblat
   {
     title: "nqaresh",
     items: [
@@ -268,16 +399,24 @@ export const SHOP_DATA = [
         disprice: 0,
       },
       {
-        id: 42,
-        name: "خبز مثوم",
-        imageUrl: khbzmthwm,
-        price: 15,
+        id: 41,
+        name: "باشكا",
+        imageUrl: bashka,
+        price: 55,
         price2: null,
         disprice: 0,
       },
+      // {
+      //   id: 42,
+      //   name: "خبز مثوم",
+      //   imageUrl: khbzmthwm,
+      //   price: 15,
+      //   price2: null,
+      //   disprice: 0,
+      // },
       {
         id: 44,
-        name: "سمبوسك 4 قطع",
+        name: "سمبوسك ",
         imageUrl: smbosek,
         price: 35,
         price2: null,
@@ -323,8 +462,17 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
+      {
+        id: 48,
+        name: "   توست جبنة ",
+        imageUrl: tostjebne,
+        price: 40,
+        price2: null,
+        disprice: 0,
+      },
     ],
   }, 
+  // food
   {
     title: "lunch",
     items: [
@@ -354,18 +502,26 @@ export const SHOP_DATA = [
             id: 53,
             name: " مشكل ",
             imageUrl: mshakal,
-            price: 85,
+            price: 89,
             price2: null,
             disprice: 0,
           },
           {
             id: 54,
-            name: " سلمون ",
-            imageUrl: slamon,
-            price: 90,
+            name: " روس كلماري ",
+            imageUrl: rosklmare,
+            price: 85,
             price2: null,
             disprice: 0,
           },
+          // {
+          //   id: 54,
+          //   name: " سلمون ",
+          //   imageUrl: slamon,
+          //   price: 90,
+          //   price2: null,
+          //   disprice: 0,
+          // },
         ],
       },
       {
@@ -374,14 +530,14 @@ export const SHOP_DATA = [
         id: 6,
         imageUrl: ftorbrnji,
         items: [
-          {
-            id: 61,
-            name: " انتريكوت ",
-            imageUrl: antrekot ,
-            price: 110,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 61,
+          //   name: " انتريكوت ",
+          //   imageUrl: antrekot ,
+          //   price: 110,
+          //   price2: null,
+          //   disprice: 0,
+          // },
           {
             id: 62,
             name: "صدر دجاج مشوي",
@@ -494,6 +650,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
+          {
+            id: 73,
+            name: "نودلز ",
+            imageUrl: nodels,
+            price: 69,
+            price2: null,
+            disprice: 0,
+          },
         ],
       },
       {
@@ -530,17 +694,18 @@ export const SHOP_DATA = [
       }
     ],
   },
+  // salads
   {
     title: "salads",
     items: [
-      // {
-      //   id: 110,
-      //   name: "سلطة ايلولية",
-      //   imageUrl: sltaaylolya,
-      //   price: 55,
-      //   price2: null,
-      //   disprice: 0,
-      // },
+      {
+        id: 110,
+        name: "سلطة ايلولية",
+        imageUrl: sltaaylolya,
+        price: 69,
+        price2: null,
+        disprice: 0,
+      },
       {
         id: 111,
         name: "سلطة حلومة",
@@ -607,38 +772,15 @@ export const SHOP_DATA = [
       },
     ],
   },
+  // mshrobat
   {
     title: "mshrobat",
     items: [
       {
         title: "eneregydrinks",
-        name: "مشروبات طاقة",
+        name: "مشروبات باردة",
         id: 1,
         imageUrl: mshrobattaqa,
-        items: [
-          {
-            id: 141,
-            name: " XL",
-            imageUrl: xl,
-            price: 10,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 142,
-            name: " BLU",
-            imageUrl: blu,
-            price: 10,
-            price2: null,
-            disprice: 0,
-          },
-        ],
-      },
-      {
-        title: "milkshake",
-        name: " ميلك شيك",
-        id: 3,
-        imageUrl: ftorbrnji,
         items: [
           {
             id: 31,
@@ -688,14 +830,6 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-        ],
-      },
-      {
-        title: "mnw3at1",
-        name: "نكهات فريش",
-        id: 2,
-        imageUrl: tabon,
-        items: [
           {
             id: 21,
             name: "  موخيتو",
@@ -760,15 +894,7 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-        ],
-      },
-      {
-        title: "ice",
-        name: "مشروبات باردة",
-        id: 2,
-        imageUrl: tabon,
-        items: [
-          {
+                    {
             id: 21,
             name: "  كولا",
             imageUrl: cola,
@@ -824,8 +950,216 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
+          {
+            id: 141,
+            name: " XL",
+            imageUrl: xl,
+            price: 10,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 142,
+            name: " BLU",
+            imageUrl: blu,
+            price: 10,
+            price2: null,
+            disprice: 0,
+          },
         ],
       },
+      // {
+      //   title: "milkshake",
+      //   name: " ميلك شيك",
+      //   id: 3,
+      //   imageUrl: ftorbrnji,
+      //   items: [
+      //     {
+      //       id: 31,
+      //       name: "شوكولاطة",
+      //       imageUrl: chocolata ,
+      //       price: 22,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 32,
+      //       name: "لوتوس",
+      //       imageUrl: lotos,
+      //       price: 22,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 33,
+      //       name: "توت",
+      //       imageUrl: tot,
+      //       price: 22,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 34,
+      //       name: " اوريو",
+      //       imageUrl: orio,
+      //       price: 22,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //       {
+      //       id: 34,
+      //       name: " ايس كافي",
+      //       imageUrl: icecaffe,
+      //       price: 15,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //       {
+      //       id: 34,
+      //       name: " ميلك شيك فانيل",
+      //       imageUrl: icevanel,
+      //       price: 22,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //   ],
+      // },
+      // {
+      //   title: "mnw3at1",
+      //   name: "نكهات فريش",
+      //   id: 2,
+      //   imageUrl: tabon,
+      //   items: [
+          // {
+          //   id: 21,
+          //   name: "  موخيتو",
+          //   imageUrl: mojito,
+          //   price: 29,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 22,
+          //   name: "جروس",
+          //   imageUrl: gros,
+          //   price: 15,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 23,
+          //   name: "  ايس ليمونادة",
+          //   imageUrl: lemonada,
+          //   price: 15,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 24,
+          //   name: " عصير جزر ",
+          //   imageUrl: tbe3e,
+          //   price: 15,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 24,
+          //   name: " عصير برتقال",
+          //   imageUrl: aserbortoqal,
+          //   price: 15,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 21,
+          //   name: "  rainbow aylol",
+          //   imageUrl: renbo,
+          //   price: 29,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          //           {
+          //   id: 21,
+          //   name: "  breshake aylo",
+          //   imageUrl: breshek,
+          //   price: 29,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+          // {
+          //   id: 24,
+          //   name: " ابريق برتقال - جروس - ليمونادة - جزر",
+          //   imageUrl: ebreq,
+          //   price: 32,
+          //   price2: null,
+          //   disprice: 0,
+          // },
+      //   ],
+      // },
+      // {
+      //   title: "ice",
+      //   name: "مشروبات باردة",
+      //   id: 2,
+      //   imageUrl: tabon,
+      //   items: [
+      //     {
+      //       id: 21,
+      //       name: "  كولا",
+      //       imageUrl: cola,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 22,
+      //       name: "كولا زيرو",
+      //       imageUrl: colazero,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 23,
+      //       name: "  عنب ",
+      //       imageUrl: eneb,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 24,
+      //       name: " ماء صغير",
+      //       imageUrl: may1,
+      //       price: 7,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //     {
+      //       id: 26,
+      //       name: "فانتا ",
+      //       imageUrl: fanta,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //      {
+      //       id: 26,
+      //       name: "سبرايت ",
+      //       imageUrl: sprite,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //      {
+      //       id: 26,
+      //       name: "صودا ",
+      //       imageUrl: soda,
+      //       price: 10,
+      //       price2: null,
+      //       disprice: 0,
+      //     },
+      //   ],
+      // },
       {
         title: "hot",
         name: "مشروبات ساخنة",
@@ -885,154 +1219,7 @@ export const SHOP_DATA = [
       
     ],
   },
-  // {
-  //   title: "t7lay",
-  //   items: [
-  //     {
-  //       title: "m5bozat",
-  //       name: " مخبوزات",
-  //       id: 180,
-  //       imageUrl: mshrobattaqa,
-  //       items: [
-  //         {
-  //           name: " فشايش كبير",
-  //           imageUrl: fshfesh,
-  //           price: 45,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 182,
-  //           name: "فشافيش صغير ",
-  //           imageUrl: fsfesh1,
-  //           price: 25,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 183,
-  //           name: " ميني بانكيك ( 3 قطع ) ",
-  //           imageUrl: bankek,
-  //           price: 26,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 184,
-  //           name: "بانكيك ( 10 قطع )  ",
-  //           imageUrl: bankek1,
-  //           price: 36,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 185,
-  //           name: " بافل ",
-  //           imageUrl: bafel,
-  //           price: 39,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 186,
-  //           name: " كريب",
-  //           imageUrl: kreb,
-  //           price: 30,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "aogot",
-  //       name: "  עוגות",
-  //       id: 190,
-  //       imageUrl: ftorbrnji,
-  //       items: [
-  //         {
-  //           id: 191,
-  //           name: "سنكرز",
-  //           imageUrl: snikers ,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 191,
-  //           name: "فستق الفريدو",
-  //           imageUrl: fostoqalfredo,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 192,
-  //           name: "اوريو",
-  //           imageUrl: orio1,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 193,
-  //           name: " بلوبيري",
-  //           imageUrl: blobery,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 194,
-  //           name: " עוגה חמה ",
-  //           imageUrl: aogahama,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 195,
-  //           name: "جبنة مخبوزة",
-  //           imageUrl: jbnem5boze ,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 196,
-  //           name: "كاساتا",
-  //           imageUrl: kasata,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 197,
-  //           name: "بيجلا",
-  //           imageUrl: begla,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 198,
-  //           name: " لمون وفستق",
-  //           imageUrl: fostoqlemon,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //         {
-  //           id: 199,
-  //           name: " سوفليه ",
-  //           imageUrl: sofle,
-  //           price: 35,
-  //           price2: null,
-  //           disprice: 0,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  // t7lay
   {
     title: "t7lay",
     items: [
@@ -1165,6 +1352,7 @@ export const SHOP_DATA = [
           },
     ]
   },
+  // aragel
   {
     title: "aragel",
     items: [

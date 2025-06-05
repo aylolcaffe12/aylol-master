@@ -10,42 +10,49 @@ import aragel from "./mainPic/aragel.jpg";
 
 
 const categories = [
+  // ftor
   {
     id: 1,
     titleId: "وجبة الفطور ",
     imageUrl: SpecialBreakFast,
     route: "shop/breakfast",
   },
+  // moqblat
   {
     id: 2,
     titleId: "مقبلات",
     imageUrl: nqaresh,
     route: "shop/nqaresh",
   },
-  // {
-  //   id: 3,
-  //   titleId: "وجبة الغداء",
-  //   imageUrl: wjbet3daa,
-  //   route: "shop/lunch",
-  // },
+  // food
+  {
+    id: 3,
+    titleId: "وجبة الغداء",
+    imageUrl: wjbet3daa,
+    route: "shop/lunch",
+  },
+  // salads
   {
     id: 4,
     titleId: "سلطات",
     imageUrl: slatat,
     route: "shop/salads",
   },
+  // t7lay
   {
     id: 5,
     titleId: "تحلاي",
     imageUrl: t7lay,
     route: "shop/t7lay",
   },
+  // mshrobat 
   {
     id: 6,
     titleId: "مشروبات",
     imageUrl: mshrobat,
     route: "shop/mshrobat",
   },
+  // aragel 
   {
     id: 7,
     titleId: "اراجيل",
