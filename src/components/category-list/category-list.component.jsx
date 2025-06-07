@@ -27,7 +27,7 @@ const categories = [
   // food
   {
     id: 3,
-    titleId: "وجبة الغداء",
+    titleId: "وجبات ",
     imageUrl: wjbet3daa,
     route: "shop/lunch",
   },
