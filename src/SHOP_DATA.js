@@ -108,6 +108,8 @@ import tostjebne from "./assets/pictures/tostjebne.jpeg";
 import bashka from "./assets/pictures/bashka.jpeg";
 import rosklmare from "./assets/pictures/rosklmare.jpg";
 import nodels from "./assets/pictures/nodels.jpeg";
+import icecaramellate from "./assets/pictures/icecaramellate.jpeg";
+import kafekar from "./assets/pictures/kafekar.jpeg";
 
 
 export const SHOP_DATA = [
@@ -822,7 +824,23 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-            {
+          {
+            id: 34,
+            name: " ايس لاتي كراميل",
+            imageUrl: icecaramellate,
+            price: 15,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 34,
+            name: "   كافي كار",
+            imageUrl: kafekar,
+            price: 15,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 34,
             name: " ميلك شيك فانيل",
             imageUrl: icevanel,
