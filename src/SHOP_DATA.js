@@ -702,7 +702,7 @@ export const SHOP_DATA = [
     items: [
       {
         id: 110,
-        name: "سلطة ايلولية",
+        name: " سلطة ايلولية (جاج)",
         imageUrl: sltaaylolya,
         price: 69,
         price2: null,
@@ -1338,7 +1338,7 @@ export const SHOP_DATA = [
           },
           {
             id: 183,
-            name: " ميني بانكيك ( 3 قطع ) ",
+            name: " ميني بانكيك ( 10 قطع ) ",
             imageUrl: bankek,
             price: 26,
             price2: null,
@@ -1346,7 +1346,7 @@ export const SHOP_DATA = [
           },
           {
             id: 184,
-            name: "بانكيك ( 10 قطع )  ",
+            name: "بانكيك ( 3 قطع )  ",
             imageUrl: bankek1,
             price: 36,
             price2: null,
