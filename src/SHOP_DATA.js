@@ -110,6 +110,8 @@ import rosklmare from "./assets/pictures/rosklmare.jpg";
 import nodels from "./assets/pictures/nodels.jpeg";
 import icecaramellate from "./assets/pictures/icecaramellate.jpeg";
 import kafekar from "./assets/pictures/kafekar.jpeg";
+import doubleburger from "./assets/pictures/doubleburger.jpeg";
+
 
 
 export const SHOP_DATA = [
@@ -585,6 +587,14 @@ export const SHOP_DATA = [
             name: "برجر 200 غرام ",
             imageUrl: burger200,
             price: 50,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 75,
+            name: " دبل برجر 300 غرام ",
+            imageUrl: doubleburger,
+            price: 65,
             price2: null,
             disprice: 0,
           },
@@ -1257,14 +1267,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          // {
-          //   id: 192,
-          //   name: "اوريو",
-          //   imageUrl: orio1,
-          //   price: 35,
-          //   price2: null,
-          //   disprice: 0,
-          // },
+          {
+            id: 192,
+            name: "اوريو",
+            imageUrl: orio1,
+            price: 35,
+            price2: null,
+            disprice: 0,
+          },
           {
             id: 193,
             name: " بلوبيري",
@@ -1406,15 +1416,14 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
-      {
-        id: 114,
-        name: "لمون نعنع   ",
-        imageUrl: argele,
-        price: 55,
-        price2: null,
-        disprice: 0,
-      },
+      // {
+      //   id: 114,
+      //   name: "لمون نعنع   ",
+      //   imageUrl: argele,
+      //   price: 55,
+      //   price2: null,
+      //   disprice: 0,
+      // },
     ],
   },
-  
 ];
