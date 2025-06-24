@@ -8,6 +8,7 @@ import mnqosheajban from "./assets/pictures/mnqosheajban.jpg";
 import fokatchaaylol from "./assets/pictures/fokatchaaylol.jpg";
 import fokatcha from "./assets/pictures/fokatcha.jpg";
 import homosl7me from "./assets/pictures/homosl7me.jpg";
+import homosfol from "./assets/pictures/homosfol.jpg";
 import shkshoka from "./assets/pictures/shkshoka.jpg";
 import toast from "./assets/pictures/toast.jpg";
 import l7mebndora from "./assets/pictures/l7mebndora.jpg";
@@ -79,6 +80,7 @@ import tostdjaj from "./assets/pictures/tostdjaj.jpeg";
 import chipschider from "./assets/pictures/chipschider.jpeg";
 import aserbortoqal from "./assets/pictures/aserbortoqal.jpeg";
 import ebreq from "./assets/pictures/ebreq.jpeg";
+import ebreq1 from "./assets/pictures/ebreq1.jpeg";
 import fshfesh from "./assets/pictures/fshfesh.jpeg";
 import fsfesh1 from "./assets/pictures/fsfesh1.jpeg";
 import bankek from "./assets/pictures/bankek.jpeg";
@@ -111,7 +113,7 @@ import nodels from "./assets/pictures/nodels.jpeg";
 import icecaramellate from "./assets/pictures/icecaramellate.jpeg";
 import kafekar from "./assets/pictures/kafekar.jpeg";
 import doubleburger from "./assets/pictures/doubleburger.jpeg";
-
+import lemonada1 from "./assets/pictures/lemonada1.jpeg";
 
 
 export const SHOP_DATA = [
@@ -139,6 +141,14 @@ export const SHOP_DATA = [
             id: 31,
             name: " حمص مع لحمة ",
             imageUrl: homosl7me ,
+            price: 60,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 31,
+            name: " حمص و فول ",
+            imageUrl: homosfol ,
             price: 60,
             price2: null,
             disprice: 0,
@@ -398,7 +408,7 @@ export const SHOP_DATA = [
         id: 41,
         name: "عرايس",
         imageUrl: arayes,
-        price: 35,
+        price: 29,
         price2: null,
         disprice: 0,
       },
@@ -474,6 +484,14 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
+      {
+        id: 48,
+        name: "  حمص مع لحمة",
+        imageUrl: homosl7me,
+        price: 19,
+        price2: null,
+        disprice: 0,
+      },
     ],
   }, 
   // food
@@ -487,8 +505,16 @@ export const SHOP_DATA = [
         imageUrl: b7reat,
         items: [
           {
+            id: 53,
+            name: " مشكل ",
+            imageUrl: mshakal,
+            price: 89,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 51,
-            name: " شريمبس ",
+            name: " شريمس ",
             imageUrl: chrimps,
             price: 88,
             price2: null,
@@ -499,14 +525,6 @@ export const SHOP_DATA = [
             name: " كلماري ",
             imageUrl: klamare,
             price: 85,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 53,
-            name: " مشكل ",
-            imageUrl: mshakal,
-            price: 89,
             price2: null,
             disprice: 0,
           },
@@ -552,7 +570,7 @@ export const SHOP_DATA = [
           },
           {
             id: 63,
-            name: "صدر دجاج بالكريما والفقع والجبنة",
+            name: "صدر دجاج مكرام",
             imageUrl: sdrjaj2,
             price: 70,
             price2: null,
@@ -584,17 +602,17 @@ export const SHOP_DATA = [
         items: [
           {
             id: 75,
-            name: "برجر 200 غرام ",
-            imageUrl: burger200,
-            price: 50,
+            name: "برجر 200 غرام",
+            imageUrl: burger100,
+            price: 49,
             price2: null,
             disprice: 0,
           },
           {
             id: 75,
             name: " دبل برجر 300 غرام ",
-            imageUrl: doubleburger,
-            price: 65,
+            imageUrl: burger100,
+            price: 59,
             price2: null,
             disprice: 0,
           },
@@ -697,7 +715,7 @@ export const SHOP_DATA = [
           {
             id: 92,
             name: "كباب",
-            imageUrl: kbab1,
+            imageUrl: kbab,
             price: 38,
             price2: null,
             disprice: 0,
@@ -712,7 +730,7 @@ export const SHOP_DATA = [
     items: [
       {
         id: 110,
-        name: " سلطة ايلولية (جاج)",
+        name: " سلطة ايلول (جاج)",
         imageUrl: sltaaylolya,
         price: 69,
         price2: null,
@@ -796,37 +814,37 @@ export const SHOP_DATA = [
         items: [
           {
             id: 31,
-            name: "شوكولاطة",
+            name: "ميلك شيك شوكولاطة",
             imageUrl: chocolata ,
-            price: 22,
+            price: 25,
             price2: null,
             disprice: 0,
           },
           {
             id: 32,
-            name: "لوتوس",
+            name: " ميلك شيك لوتوس",
             imageUrl: lotos,
-            price: 22,
+            price: 25,
             price2: null,
             disprice: 0,
           },
           {
             id: 33,
-            name: "توت",
+            name: " ميلك شيك توت",
             imageUrl: tot,
-            price: 22,
+            price: 25,
             price2: null,
             disprice: 0,
           },
           {
             id: 34,
-            name: " اوريو",
+            name: "  ميلك شيك اوريو",
             imageUrl: orio,
-            price: 22,
+            price: 25,
             price2: null,
             disprice: 0,
           },
-            {
+          {
             id: 34,
             name: " ايس كافي",
             imageUrl: icecaffe,
@@ -838,7 +856,7 @@ export const SHOP_DATA = [
             id: 34,
             name: " ايس لاتي كراميل",
             imageUrl: icecaramellate,
-            price: 15,
+            price: 18,
             price2: null,
             disprice: 0,
           },
@@ -899,6 +917,14 @@ export const SHOP_DATA = [
             disprice: 0,
           },
           {
+            id: 24,
+            name: "  ليمونادة",
+            imageUrl: lemonada1,
+            price: 15,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 21,
             name: "  rainbow aylol",
             imageUrl: renbo,
@@ -916,13 +942,21 @@ export const SHOP_DATA = [
           },
           {
             id: 24,
-            name: " ابريق برتقال - جروس - ليمونادة - جزر",
+            name: "ابريق برتقال",
             imageUrl: ebreq,
             price: 32,
             price2: null,
             disprice: 0,
           },
-                    {
+          {
+            id: 24,
+            name: "ابريق ليمونادة",
+            imageUrl: ebreq1,
+            price: 32,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 21,
             name: "  كولا",
             imageUrl: cola,
