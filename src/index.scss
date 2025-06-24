@@ -26,7 +26,8 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, rgba(37, 150, 190, 0.8) 0%, rgba(37, 150, 190, 0.8) 50%, rgba(37, 150, 190, 0.8) 100%), url('https://unsplash.com/photos/XaZY7YN4rU4/download?force=true');
+  background-color: #000000;
+  // background: linear-gradient(135deg, rgba(102, 132, 3, 0.8) 0%, rgba(37, 150, 190, 0.8) 50%, rgba(37, 150, 190, 0.8) 100%), url('https://unsplash.com/photos/XaZY7YN4rU4/download?force=true');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -44,7 +45,9 @@ body {
   @media only screen and (min-width: 768px ) {
     padding: 0 20px 50px;
   }
-
+.navigation{
+  background-color: #fdcb03;
+}
   .navigation + & {
     padding-top: 95px;
 
@@ -59,7 +62,7 @@ body {
       right: 0;
       max-width: 100vw;
       max-height: 100vh;
-      background: #FFF;
+      background: #ffffff;
       pointer-events: none;
       animation: 0.40s 0.15s ease-out forwards fade-out;
       z-index: 9;
