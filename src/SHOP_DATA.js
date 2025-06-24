@@ -105,7 +105,11 @@ import mkyato from "./assets/pictures/mkyato.jpeg";
 import shokosa5n from "./assets/pictures/shokosa5n.jpeg";
 import renbo from "./assets/pictures/renbo.jpg";
 import breshek from "./assets/pictures/breshek.jpg";
-import argele from "./assets/pictures/argele.jpeg";
+// import argele from "./assets/pictures/argele.jpeg";
+import argele1 from "./assets/pictures/argele1.jpeg";
+import argele2 from "./assets/pictures/argele2.jpeg";
+import argele3 from "./assets/pictures/argele3.jpeg";
+import argele4 from "./assets/pictures/argele4.jpeg";
 import tostjebne from "./assets/pictures/tostjebne.jpeg";
 import bashka from "./assets/pictures/bashka.jpeg";
 import rosklmare from "./assets/pictures/rosklmare.jpg";
@@ -944,7 +948,7 @@ export const SHOP_DATA = [
             id: 24,
             name: "ابريق برتقال",
             imageUrl: ebreq,
-            price: 32,
+            price: 35,
             price2: null,
             disprice: 0,
           },
@@ -952,7 +956,7 @@ export const SHOP_DATA = [
             id: 24,
             name: "ابريق ليمونادة",
             imageUrl: ebreq1,
-            price: 32,
+            price: 35,
             price2: null,
             disprice: 0,
           },
@@ -1421,15 +1425,15 @@ export const SHOP_DATA = [
       {
         id: 110,
         name: " تفاحتين",
-        imageUrl: argele,
-        price: 55,
+        imageUrl: argele1,
+        price: 50,
         price2: null,
         disprice: 0,
       },
       {
         id: 111,
         name: " نخلة",
-        imageUrl: argele,
+        imageUrl: argele2,
         price: 55,
         price2: null,
         disprice: 0,
@@ -1437,7 +1441,7 @@ export const SHOP_DATA = [
       {
         id: 112,
         name: "خلطة المحل ",
-        imageUrl: argele,
+        imageUrl: argele3,
         price: 60,
         price2: null,
         disprice: 0,
@@ -1445,8 +1449,8 @@ export const SHOP_DATA = [
       {
         id: 113,
         name: "love 66 ",
-        imageUrl: argele,
-        price: 55,
+        imageUrl: argele4,
+        price: 50,
         price2: null,
         disprice: 0,
       },

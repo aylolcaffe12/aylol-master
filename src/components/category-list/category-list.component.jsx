@@ -7,6 +7,11 @@ import slatat from "./mainPic/slatat.jpeg";
 import t7lay from "./mainPic/t7lay.jpeg";
 import mshrobat from "./mainPic/mshrobat.jpeg";
 import aragel from "./mainPic/aragel.jpg";
+import ftorbrnji from "./mainPic/ftorbrnji.jpg";
+import chipschider from "./mainPic/chipschider.jpeg";
+import sdrjaj1 from "./mainPic/sdrjaj1.jpeg";
+import slta3rbye from "./mainPic/slta3rbye.jpeg";
+import mojito from "./mainPic/mojito.jpeg";
 
 
 const categories = [
@@ -14,28 +19,28 @@ const categories = [
   {
     id: 1,
     titleId: "وجبة الفطور ",
-    imageUrl: SpecialBreakFast,
+    imageUrl: ftorbrnji,
     route: "shop/breakfast",
   },
   // moqblat
   {
     id: 2,
     titleId: "مقبلات",
-    imageUrl: nqaresh,
+    imageUrl: chipschider,
     route: "shop/nqaresh",
   },
   // food
   {
     id: 3,
     titleId: "وجبات ",
-    imageUrl: wjbet3daa,
+    imageUrl: sdrjaj1,
     route: "shop/lunch",
   },
   // salads
   {
     id: 4,
     titleId: "سلطات",
-    imageUrl: slatat,
+    imageUrl: slta3rbye,
     route: "shop/salads",
   },
   // t7lay
@@ -49,7 +54,7 @@ const categories = [
   {
     id: 6,
     titleId: "مشروبات",
-    imageUrl: mshrobat,
+    imageUrl: mojito,
     route: "shop/mshrobat",
   },
   // aragel 
