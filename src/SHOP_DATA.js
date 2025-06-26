@@ -116,8 +116,9 @@ import rosklmare from "./assets/pictures/rosklmare.jpg";
 import nodels from "./assets/pictures/nodels.jpeg";
 import icecaramellate from "./assets/pictures/icecaramellate.jpeg";
 import kafekar from "./assets/pictures/kafekar.jpeg";
-import doubleburger from "./assets/pictures/doubleburger.jpeg";
+import f5f5ena from "./assets/pictures/f5f5ena.jpeg";
 import lemonada1 from "./assets/pictures/lemonada1.jpeg";
+import vanel from "./assets/pictures/vanel.jpeg";
 
 
 export const SHOP_DATA = [
@@ -663,7 +664,7 @@ export const SHOP_DATA = [
           {
             id: 81,
             name: " رفيولي بطاطا",
-            imageUrl: rviolebtata,
+            imageUrl: rviolejbne,
             price: 59,
             price2: null,
             disprice: 0,
@@ -719,7 +720,7 @@ export const SHOP_DATA = [
           {
             id: 92,
             name: "كباب",
-            imageUrl: kbab,
+            imageUrl: kbab1,
             price: 38,
             price2: null,
             disprice: 0,
@@ -816,6 +817,22 @@ export const SHOP_DATA = [
         id: 1,
         imageUrl: mshrobattaqa,
         items: [
+          {
+            id: 31,
+            name: "فخفخينا",
+            imageUrl: f5f5ena ,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 31,
+            name: "ميلك شيك فانيل",
+            imageUrl: vanel ,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
           {
             id: 31,
             name: "ميلك شيك شوكولاطة",
@@ -1379,7 +1396,7 @@ export const SHOP_DATA = [
           {
             id: 182,
             name: "فشافيش صغير ",
-            imageUrl: fsfesh1,
+            imageUrl: fshfesh,
             price: 25,
             price2: null,
             disprice: 0,
