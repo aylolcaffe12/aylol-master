@@ -489,14 +489,14 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
-      {
-        id: 48,
-        name: "  حمص مع لحمة",
-        imageUrl: homosl7me,
-        price: 19,
-        price2: null,
-        disprice: 0,
-      },
+      // {
+      //   id: 48,
+      //   name: "  حمص مع لحمة",
+      //   imageUrl: homosl7me,
+      //   price: 19,
+      //   price2: null,
+      //   disprice: 0,
+      // },
     ],
   }, 
   // food
@@ -632,7 +632,7 @@ export const SHOP_DATA = [
           {
             id: 72,
             name: "تورتيلا صدر دجاج مقرمش",
-            imageUrl: tortillajaj1,
+            imageUrl: tortillajaj2,
             price: 45,
             price2: null,
             disprice: 0,
@@ -640,7 +640,7 @@ export const SHOP_DATA = [
           {
             id: 73,
             name: "تورتيلا صدر دجاج مشوي ",
-            imageUrl: tortillajaj2,
+            imageUrl: tortillajaj1,
             price: 45,
             price2: null,
             disprice: 0,
@@ -1370,14 +1370,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          {
-            id: 198,
-            name: " لمون وفستق",
-            imageUrl: fostoqlemon,
-            price: 35,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 198,
+          //   name: " لمون وفستق",
+          //   imageUrl: fostoqlemon,
+          //   price: 35,
+          //   price2: null,
+          //   disprice: 0,
+          // },
           {
             id: 199,
             name: " سوفليه ",
