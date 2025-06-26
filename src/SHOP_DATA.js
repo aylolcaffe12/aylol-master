@@ -702,6 +702,14 @@ export const SHOP_DATA = [
         imageUrl: atfal,
         items: [
           {
+            id: 92,
+            name: "كباب",
+            imageUrl: kbab1,
+            price: 38,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 93,
             name: "شنيتسلونيم ",
             imageUrl: shnetselonem,
@@ -713,14 +721,6 @@ export const SHOP_DATA = [
             id: 91,
             name: " برجر 100 غرام",
             imageUrl: burger100,
-            price: 38,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 92,
-            name: "كباب",
-            imageUrl: kbab1,
             price: 38,
             price2: null,
             disprice: 0,
@@ -1273,14 +1273,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          {
-            id: 25,
-            name: "مكياتو  ",
-            imageUrl: mkyato,
-            price: 10,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 25,
+          //   name: "مكياتو  ",
+          //   imageUrl: mkyato,
+          //   price: 10,
+          //   price2: null,
+          //   disprice: 0,
+          // },
           {
             id: 26,
             name: "شوكو ",
@@ -1395,7 +1395,7 @@ export const SHOP_DATA = [
           },
           {
             id: 183,
-            name: " ميني بانكيك ( 10 قطع ) ",
+            name: " ميني بانكيك ( 3 قطع ) ",
             imageUrl: bankek,
             price: 26,
             price2: null,
@@ -1403,7 +1403,7 @@ export const SHOP_DATA = [
           },
           {
             id: 184,
-            name: "بانكيك ( 3 قطع )  ",
+            name: "بانكيك ( 10 قطع )  ",
             imageUrl: bankek1,
             price: 36,
             price2: null,
