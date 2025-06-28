@@ -720,7 +720,7 @@ export const SHOP_DATA = [
           {
             id: 91,
             name: " برجر 100 غرام",
-            imageUrl: burger100,
+            imageUrl: burger200,
             price: 38,
             price2: null,
             disprice: 0,
