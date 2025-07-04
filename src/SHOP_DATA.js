@@ -425,14 +425,14 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
-      // {
-      //   id: 42,
-      //   name: "خبز مثوم",
-      //   imageUrl: khbzmthwm,
-      //   price: 15,
-      //   price2: null,
-      //   disprice: 0,
-      // },
+      {
+        id: 42,
+        name: "خبز مثوم",
+        imageUrl: khbzmthwm,
+        price: 15,
+        price2: null,
+        disprice: 0,
+      },
       {
         id: 44,
         name: "سمبوسك ",
