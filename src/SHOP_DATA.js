@@ -119,7 +119,7 @@ import kafekar from "./assets/pictures/kafekar.jpeg";
 import f5f5ena from "./assets/pictures/f5f5ena.jpeg";
 import lemonada1 from "./assets/pictures/lemonada1.jpeg";
 import vanel from "./assets/pictures/vanel.jpeg";
-
+import fele from "./assets/pictures/fele.jpg";
 
 export const SHOP_DATA = [
   // ftor
@@ -218,7 +218,7 @@ export const SHOP_DATA = [
             id: 22,
             name: "بيتسا",
             imageUrl: pizza,
-            price: 45,
+            price: 50,
             price2: null,
             disprice: 0,
           },
@@ -242,7 +242,7 @@ export const SHOP_DATA = [
             id: 25,
             name: "فوكاتشا ايلول ",
             imageUrl: fokatchaaylol,
-            price: 30,
+            price: 35,
             price2: null,
             disprice: 0,
           },
@@ -413,7 +413,7 @@ export const SHOP_DATA = [
         id: 41,
         name: "عرايس",
         imageUrl: arayes,
-        price: 29,
+        price: 34,
         price2: null,
         disprice: 0,
       },
@@ -429,7 +429,7 @@ export const SHOP_DATA = [
         id: 42,
         name: "خبز مثوم",
         imageUrl: khbzmthwm,
-        price: 15,
+        price: 25,
         price2: null,
         disprice: 0,
       },
@@ -469,7 +469,7 @@ export const SHOP_DATA = [
         id: 48,
         name: "جبنة حلومة مقلية",
         imageUrl: jbne7lome,
-        price: 29,
+        price: 32,
         price2: null,
         disprice: 0,
       },
@@ -557,14 +557,22 @@ export const SHOP_DATA = [
         id: 6,
         imageUrl: ftorbrnji,
         items: [
-          // {
-          //   id: 61,
-          //   name: " انتريكوت ",
-          //   imageUrl: antrekot ,
-          //   price: 110,
-          //   price2: null,
-          //   disprice: 0,
-          // },
+          {
+            id: 61,
+            name: " انتريكوت ",
+            imageUrl: antrekot ,
+            price: 115,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 61,
+            name: " فيليه عجل",
+            imageUrl: fele ,
+            price: 115,
+            price2: null,
+            disprice: 0,
+          },
           {
             id: 62,
             name: "صدر دجاج مشوي",
@@ -941,7 +949,7 @@ export const SHOP_DATA = [
             id: 21,
             name: "  rainbow aylol",
             imageUrl: renbo,
-            price: 29,
+            price: 35,
             price2: null,
             disprice: 0,
           },
@@ -1409,14 +1417,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          {
-            id: 185,
-            name: " بافل ",
-            imageUrl: bafel,
-            price: 39,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 185,
+          //   name: " بافل ",
+          //   imageUrl: bafel,
+          //   price: 39,
+          //   price2: null,
+          //   disprice: 0,
+          // },
           {
             id: 186,
             name: " كريب",
@@ -1435,7 +1443,7 @@ export const SHOP_DATA = [
         id: 110,
         name: " تفاحتين",
         imageUrl: argele1,
-        price: 50,
+        price: 55,
         price2: null,
         disprice: 0,
       },
@@ -1459,7 +1467,7 @@ export const SHOP_DATA = [
         id: 113,
         name: "love 66 ",
         imageUrl: argele4,
-        price: 50,
+        price: 55,
         price2: null,
         disprice: 0,
       },
