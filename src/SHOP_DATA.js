@@ -120,6 +120,8 @@ import f5f5ena from "./assets/pictures/f5f5ena.jpeg";
 import lemonada1 from "./assets/pictures/lemonada1.jpeg";
 import vanel from "./assets/pictures/vanel.jpeg";
 import fele from "./assets/pictures/fele.jpg";
+import whitetoast from "./assets/pictures/whitetoast.jpg";
+
 
 export const SHOP_DATA = [
   // ftor
@@ -171,6 +173,14 @@ export const SHOP_DATA = [
             name: "توست",
             imageUrl: toast,
             price: 40,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 33,
+            name: "وايت توست",
+            imageUrl: whitetoast,
+            price: 45,
             price2: null,
             disprice: 0,
           },
@@ -697,7 +707,7 @@ export const SHOP_DATA = [
             id: 73,
             name: "نودلز ",
             imageUrl: nodels,
-            price: 69,
+            price: 59,
             price2: null,
             disprice: 0,
           },
