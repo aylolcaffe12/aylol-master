@@ -180,7 +180,7 @@ export const SHOP_DATA = [
             id: 33,
             name: "وايت توست",
             imageUrl: whitetoast,
-            price: 45,
+            price: 55,
             price2: null,
             disprice: 0,
           },
