@@ -902,14 +902,6 @@ export const SHOP_DATA = [
           },
           {
             id: 31,
-            name: "فخفخينا",
-            imageUrl: f5f5ena ,
-            price: 29,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 31,
             name: "ميلك شيك فانيل",
             imageUrl: vanel ,
             price: 25,
@@ -1041,6 +1033,14 @@ export const SHOP_DATA = [
             name: "ابريق ليمونادة",
             imageUrl: ebreq1,
             price: 35,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 31,
+            name: "فخفخينا",
+            imageUrl: f5f5ena ,
+            price: 29,
             price2: null,
             disprice: 0,
           },
@@ -1470,7 +1470,7 @@ export const SHOP_DATA = [
           },
           {
             id: 183,
-            name: " ميني بانكيك ( 3 قطع ) ",
+            name: " ميني بانكيك ( 10 قطع ) ",
             imageUrl: Minipancakes,
             price: 26,
             price2: null,
@@ -1478,7 +1478,7 @@ export const SHOP_DATA = [
           },
           {
             id: 184,
-            name: "بانكيك ( 10 قطع )  ",
+            name: "بانكيك ( 3 قطع )  ",
             imageUrl: Pancakes,
             price: 36,
             price2: null,
