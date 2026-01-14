@@ -588,7 +588,7 @@ export const SHOP_DATA = [
       },
       {
         title: "mainluch",
-        name: " طبق رئيسي ",
+        name: "  على النار ",
         id: 6,
         imageUrl: ftorbrnji,
         items: [
