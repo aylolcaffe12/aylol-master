@@ -110,7 +110,7 @@ import argele1 from "./assets/pictures/argele1.jpeg";
 import argele2 from "./assets/pictures/argele2.jpeg";
 import argele3 from "./assets/pictures/argele3.jpeg";
 import argele4 from "./assets/pictures/argele4.jpeg";
-import tostjebne from "./assets/pictures/tostjebne.jpeg";
+// import tostjebne from "./assets/pictures/tostjebne.jpeg";
 import bashka from "./assets/pictures/bashka.jpeg";
 import rosklmare from "./assets/pictures/rosklmare.jpg";
 import nodels from "./assets/pictures/nodels.jpeg";
@@ -120,7 +120,16 @@ import f5f5ena from "./assets/pictures/f5f5ena.jpeg";
 import lemonada1 from "./assets/pictures/lemonada1.jpeg";
 import vanel from "./assets/pictures/vanel.jpeg";
 import fele from "./assets/pictures/fele.jpg";
-import whitetoast from "./assets/pictures/whitetoast.jpg";
+import astraganof from "./assets/pictures/astraganof.jpeg";
+import dla35rof from "./assets/pictures/dla35rof.jpeg";
+import mshkl from "./assets/pictures/mshkl.jpeg";
+// import whitetoast from "./assets/pictures/whitetoast.jpeg";
+import koratbtata from "./assets/pictures/koratbtata.jpeg";
+import hlqatbsl from "./assets/pictures/hlqatbsl.jpeg";
+import krispy from "./assets/pictures/krispy.jpeg";
+import korason from "./assets/pictures/korason.jpeg";
+import Pancakes from "./assets/pictures/Pancakes.jpeg";
+import Minipancakes from "./assets/pictures/Minipancakes.jpeg";
 
 
 export const SHOP_DATA = [
@@ -128,7 +137,7 @@ export const SHOP_DATA = [
   {
     title : "breakfast",
     items: [
-      {
+          {
             id: 11,
             name: "فطور برنجي ( 7 مقبلات-اجبان-2عجة-منقوشة زعتر-سلطة عربية- 2مشروب )",
             imageUrl: ftorbrnji,
@@ -176,14 +185,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          {
-            id: 33,
-            name: "وايت توست",
-            imageUrl: whitetoast,
-            price: 55,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 33,
+          //   name: "وايت توست",
+          //   imageUrl: whitetoast,
+          //   price: 55,
+          //   price2: null,
+          //   disprice: 0,
+          // },
           {
             id: 34,
             name: "لحمة بندورة",
@@ -220,7 +229,7 @@ export const SHOP_DATA = [
             id: 21,
             name: " صفيحة تركية",
             imageUrl: sfe7a,
-            price: 35,
+            price: 40,
             price2: null,
             disprice: 0,
           },
@@ -429,6 +438,22 @@ export const SHOP_DATA = [
       },
       {
         id: 41,
+        name: "حلقات بصل",
+        imageUrl: hlqatbsl,
+        price: 20,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 41,
+        name: " كرات بطاطا",
+        imageUrl: koratbtata,
+        price: 20,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 41,
         name: "باشكا",
         imageUrl: bashka,
         price: 55,
@@ -577,6 +602,30 @@ export const SHOP_DATA = [
           },
           {
             id: 61,
+            name: " اضلاع خروف ",
+            imageUrl: dla35rof ,
+            price: 115,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 61,
+            name: "  مشكل مشاوي ",
+            imageUrl: mshkl ,
+            price: 115,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 61,
+            name: "  استراغنوف ",
+            imageUrl: astraganof ,
+            price: 70,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 61,
             name: " فيليه عجل",
             imageUrl: fele ,
             price: 115,
@@ -611,6 +660,14 @@ export const SHOP_DATA = [
             id: 65,
             name: "شنيتسل",
             imageUrl: shnetsel,
+            price: 65,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 65,
+            name: "كريسبي",
+            imageUrl: krispy,
             price: 65,
             price2: null,
             disprice: 0,
@@ -836,10 +893,18 @@ export const SHOP_DATA = [
         imageUrl: mshrobattaqa,
         items: [
           {
+            id: 34,
+            name: " ايس لاتي كراميل",
+            imageUrl: icecaramellate,
+            price: 18,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 31,
             name: "فخفخينا",
             imageUrl: f5f5ena ,
-            price: 25,
+            price: 29,
             price2: null,
             disprice: 0,
           },
@@ -888,14 +953,6 @@ export const SHOP_DATA = [
             name: " ايس كافي",
             imageUrl: icecaffe,
             price: 15,
-            price2: null,
-            disprice: 0,
-          },
-          {
-            id: 34,
-            name: " ايس لاتي كراميل",
-            imageUrl: icecaramellate,
-            price: 18,
             price2: null,
             disprice: 0,
           },
@@ -1380,14 +1437,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          // {
-          //   id: 198,
-          //   name: " لمون وفستق",
-          //   imageUrl: fostoqlemon,
-          //   price: 35,
-          //   price2: null,
-          //   disprice: 0,
-          // },
+          {
+            id: 198,
+            name: "  كوراسون",
+            imageUrl: korason,
+            price: 20,
+            price2: null,
+            disprice: 0,
+          },
           {
             id: 199,
             name: " سوفليه ",
@@ -1414,7 +1471,7 @@ export const SHOP_DATA = [
           {
             id: 183,
             name: " ميني بانكيك ( 3 قطع ) ",
-            imageUrl: bankek,
+            imageUrl: Minipancakes,
             price: 26,
             price2: null,
             disprice: 0,
@@ -1422,7 +1479,7 @@ export const SHOP_DATA = [
           {
             id: 184,
             name: "بانكيك ( 10 قطع )  ",
-            imageUrl: bankek1,
+            imageUrl: Pancakes,
             price: 36,
             price2: null,
             disprice: 0,
