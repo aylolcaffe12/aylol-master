@@ -18,7 +18,7 @@ const categories = [
   // ftor
   {
     id: 1,
-    titleId: "وجبة الفطور ",
+    titleId: "سحور",
     imageUrl: ftorbrnji,
     route: "shop/breakfast",
   },
@@ -30,12 +30,12 @@ const categories = [
     route: "shop/nqaresh",
   },
   // food
-  {
-    id: 3,
-    titleId: "وجبات ",
-    imageUrl: sdrjaj1,
-    route: "shop/lunch",
-  },
+  // {
+  //   id: 3,
+  //   titleId: "وجبات ",
+  //   imageUrl: sdrjaj1,
+  //   route: "shop/lunch",
+  // },
   // salads
   {
     id: 4,
