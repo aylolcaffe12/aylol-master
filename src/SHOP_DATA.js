@@ -139,7 +139,7 @@ export const SHOP_DATA = [
     items: [
           {
             id: 11,
-            name: "سحور برنجي ( 7 مقبلات-اجبان-2عجة-منقوشة زعتر-سلطة عربية- 2مشروب )",
+            name: "فطور برنجي ( 7 مقبلات-اجبان-2عجة-منقوشة زعتر-سلطة عربية- 2مشروب )",
             imageUrl: ftorbrnji,
             price: 155,
             price2: null,
@@ -147,7 +147,7 @@ export const SHOP_DATA = [
           },
           {
             id: 12,
-            name: " سحور كلاسيكي ( 7 مقبلات - 2 عجة - سلطة عربية - 2 مشروب )",
+            name: " فطور كلاسيكي ( 7 مقبلات - 2 عجة - سلطة عربية - 2 مشروب )",
             imageUrl: ftorclasic,
             price: 125,
             price2: null,
@@ -287,14 +287,14 @@ export const SHOP_DATA = [
   {
     title: "nqaresh",
     items: [
-      // {
-      //   id: 41,
-      //   name: "عرايس",
-      //   imageUrl: arayes,
-      //   price: 34,
-      //   price2: null,
-      //   disprice: 0,
-      // },
+      {
+        id: 41,
+        name: "عرايس",
+        imageUrl: arayes,
+        price: 34,
+        price2: null,
+        disprice: 0,
+      },
       {
         id: 41,
         name: "حلقات بصل",
@@ -879,14 +879,14 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
-          {
-            id: 21,
-            name: "  rainbow aylol",
-            imageUrl: renbo,
-            price: 35,
-            price2: null,
-            disprice: 0,
-          },
+          // {
+          //   id: 21,
+          //   name: "  rainbow aylol",
+          //   imageUrl: renbo,
+          //   price: 35,
+          //   price2: null,
+          //   disprice: 0,
+          // },
                     {
             id: 21,
             name: "  breshake aylo",
