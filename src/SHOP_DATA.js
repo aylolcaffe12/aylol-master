@@ -391,6 +391,14 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
+      {
+        id: 36,
+        name: "شيبس",
+        imageUrl: chips,
+        price: 20,
+        price2: null,
+        disprice: 0,
+      },
       // {
       //   id: 48,
       //   name: "   توست جبنة ",
@@ -683,14 +691,14 @@ export const SHOP_DATA = [
   {
     title: "salads",
     items: [
-      // {
-      //   id: 110,
-      //   name: " سلطة ايلول (جاج)",
-      //   imageUrl: sltaaylolya,
-      //   price: 69,
-      //   price2: null,
-      //   disprice: 0,
-      // },
+      {
+        id: 110,
+        name: " سلطة ايلول (جاج)",
+        imageUrl: sltaaylolya,
+        price: 69,
+        price2: null,
+        disprice: 0,
+      },
       {
         id: 111,
         name: "سلطة حلومة",
@@ -699,22 +707,22 @@ export const SHOP_DATA = [
         price2: null,
         disprice: 0,
       },
-      // {
-      //   id: 112,
-      //   name: "سلطة القيصر",
-      //   imageUrl: sltaqaysar,
-      //   price: 55,
-      //   price2: null,
-      //   disprice: 0,
-      // },
-      // {
-      //   id: 113,
-      //   name: "سلطة جرجير",
-      //   imageUrl: sltajrjer,
-      //   price: 35,
-      //   price2: null,
-      //   disprice: 0,
-      // },
+      {
+        id: 112,
+        name: "سلطة القيصر",
+        imageUrl: sltaqaysar,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 113,
+        name: "سلطة جرجير",
+        imageUrl: sltajrjer,
+        price: 35,
+        price2: null,
+        disprice: 0,
+      },
       {
         id: 114,
         name: "سلطة عربية ",
