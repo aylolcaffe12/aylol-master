@@ -130,6 +130,17 @@ import krispy from "./assets/pictures/krispy.jpeg";
 import korason from "./assets/pictures/korason.jpeg";
 import Pancakes from "./assets/pictures/Pancakes.jpeg";
 import Minipancakes from "./assets/pictures/Minipancakes.jpeg";
+import freke from "./assets/pictures/freke.jpeg";
+import homos from "./assets/pictures/homos.jpeg";
+import manga from "./assets/pictures/manga.jpeg";
+import frottot from "./assets/pictures/frottot.jpeg";
+import mixfrot from "./assets/pictures/mixfrot.jpeg";
+import grosananas from "./assets/pictures/grosananas.jpeg";
+import bloaylol from "./assets/pictures/bloaylol.jpeg";
+import korneto from "./assets/pictures/korneto.jpeg";
+import milkshekkinder from "./assets/pictures/milkshekkinder.jpeg";
+import pistacheo from "./assets/pictures/pistacheo.jpeg";
+import frotananas from "./assets/pictures/frotananas.jpeg";
 
 
 export const SHOP_DATA = [
@@ -292,6 +303,14 @@ export const SHOP_DATA = [
         name: "عرايس",
         imageUrl: arayes,
         price: 34,
+        price2: null,
+        disprice: 0,
+      },
+      {
+        id: 41,
+        name: "صحن حمص",
+        imageUrl: homos,
+        price: 28,
         price2: null,
         disprice: 0,
       },
@@ -700,6 +719,14 @@ export const SHOP_DATA = [
         disprice: 0,
       },
       {
+        id: 110,
+        name: " سلطة فريكة",
+        imageUrl: freke,
+        price: 55,
+        price2: null,
+        disprice: 0,
+      },
+      {
         id: 111,
         name: "سلطة حلومة",
         imageUrl: slta7lome,
@@ -784,6 +811,71 @@ export const SHOP_DATA = [
             disprice: 0,
           },
           {
+            id: 34,
+            name: "كورنيتو ",
+            imageUrl: korneto,
+            price: 32,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 34,
+            name: "فروت مانجا",
+            imageUrl: manga,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 34,
+            name: "فروت توت",
+            imageUrl: frottot,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 34,
+            name: "ميكس توت",
+            imageUrl: mixfrot,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 21,
+            name: " فروت بيروت ياعر",
+            imageUrl: breshek,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 21,
+            name: " فروت اناناس",
+            imageUrl: frotananas,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 21,
+            name: " بلو ايلول",
+            imageUrl: bloaylol,
+            price: 29,
+            price2: null,
+            disprice: 0,
+          },
+          
+          {
+            id: 21,
+            name: " جروس اناناس",
+            imageUrl: grosananas,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          {
             id: 31,
             name: "ميلك شيك فانيل",
             imageUrl: vanel ,
@@ -815,6 +907,23 @@ export const SHOP_DATA = [
             price2: null,
             disprice: 0,
           },
+          {
+            id: 33,
+            name: " ميلك شيك كندر",
+            imageUrl: milkshekkinder,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          {
+            id: 33,
+            name: " ميلك شيك بيستاشيو",
+            imageUrl: pistacheo,
+            price: 25,
+            price2: null,
+            disprice: 0,
+          },
+          
           {
             id: 34,
             name: "  ميلك شيك اوريو",
@@ -851,7 +960,7 @@ export const SHOP_DATA = [
             id: 22,
             name: "جروس",
             imageUrl: gros,
-            price: 15,
+            price: 18,
             price2: null,
             disprice: 0,
           },
@@ -895,14 +1004,6 @@ export const SHOP_DATA = [
           //   price2: null,
           //   disprice: 0,
           // },
-                    {
-            id: 21,
-            name: "  breshake aylo",
-            imageUrl: breshek,
-            price: 29,
-            price2: null,
-            disprice: 0,
-          },
           {
             id: 24,
             name: "ابريق برتقال",
@@ -1393,7 +1494,7 @@ export const SHOP_DATA = [
         id: 110,
         name: " تفاحتين",
         imageUrl: argele1,
-        price: 55,
+        price: 60,
         price2: null,
         disprice: 0,
       },
@@ -1401,7 +1502,7 @@ export const SHOP_DATA = [
         id: 111,
         name: " نخلة",
         imageUrl: argele2,
-        price: 55,
+        price: 60,
         price2: null,
         disprice: 0,
       },
@@ -1417,7 +1518,7 @@ export const SHOP_DATA = [
         id: 113,
         name: "love 66 ",
         imageUrl: argele4,
-        price: 55,
+        price: 60,
         price2: null,
         disprice: 0,
       },
