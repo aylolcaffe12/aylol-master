@@ -332,7 +332,7 @@ export const SHOP_DATA = [
       },
       {
         id: 41,
-        name: "اصابع موتواريلا 4",
+        name: "اصابع موتزريلا 4",
         imageUrl: motzarela,
         price: 32,
         price2: null,
