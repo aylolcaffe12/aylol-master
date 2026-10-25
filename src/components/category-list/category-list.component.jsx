@@ -12,6 +12,7 @@ import chipschider from "./mainPic/chipschider.jpeg";
 import sdrjaj1 from "./mainPic/sdrjaj1.jpeg";
 import slta3rbye from "./mainPic/slta3rbye.jpeg";
 import mojito from "./mainPic/mojito.jpeg";
+import tabolelabne from "./mainPic/tabolelabne.jpeg";
 
 
 const categories = [
@@ -40,7 +41,7 @@ const categories = [
   {
     id: 4,
     titleId: "سلطات",
-    imageUrl: slta3rbye,
+    imageUrl: tabolelabne,
     route: "shop/salads",
   },
   // t7lay
